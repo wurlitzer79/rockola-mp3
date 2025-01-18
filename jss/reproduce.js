@@ -26,7 +26,9 @@
     fetch(apiUrl)
       .then(response => response.json())
       .then(data => {
-        const files = data.files.filter(file => file.name.endsWith(".mp3")); // Filtrar solo archivos MP3
+	const files = data.files.filter(file => 
+	  file.name.endsWith(".mp3") || file.name.endsWith(".flac")
+	); // Filtrar solo archivos MP3 y FLAC
 
         if (files.length > 0) {
           songList.innerHTML = ""; // Limpiar lista
