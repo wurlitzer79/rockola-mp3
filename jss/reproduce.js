@@ -22,13 +22,16 @@
     let playlist = []; // Lista de canciones
     let currentIndex = 0; // Índice de la canción actual
 
+   /* =========================================================================
+      === CODIGO QUE CARGA TODAS LAS EXTENSIONES QUE SE FILTRAN (.mp3 y .flac)
+	  =========================================================================
     // Obtener canciones de la API
     fetch(apiUrl)
       .then(response => response.json())
       .then(data => {
-	const files = data.files.filter(file => 
-	  file.name.endsWith(".mp3") || file.name.endsWith(".flac")
-	); // Filtrar solo archivos MP3 y FLAC
+		const files = data.files.filter(file => 
+		  file.name.endsWith(".mp3") || file.name.endsWith(".flac")
+		); // Filtrar solo archivos MP3 y FLAC
 
         if (files.length > 0) {
           songList.innerHTML = ""; // Limpiar lista
@@ -59,6 +62,46 @@
         console.error("Error al cargar canciones:", error);
         songList.innerHTML = "<li>Error al cargar las canciones.</li>";
       });
+    ======================================================================= */
+	
+	// Obtener canciones de la API, priorizando los .mp3, si no hay, carga los .flac, si es que existen
+	fetch(apiUrl)
+	  .then(response => response.json())
+	  .then(data => {
+		// Filtrar archivos por extensión
+		const mp3Files = data.files.filter(file => file.name.endsWith(".mp3"));
+		const flacFiles = data.files.filter(file => file.name.endsWith(".flac"));
+
+		// Elegir qué extensión cargar (MP3 tiene prioridad)
+		const files = mp3Files.length > 0 ? mp3Files : flacFiles;
+
+		if (files.length > 0) {
+		  songList.innerHTML = ""; // Limpiar lista
+
+		  files.forEach((file, index) => {
+			const li = document.createElement("li");
+			const button = document.createElement("button");
+			button.textContent = file.title || file.name; // Usar título o nombre del archivo
+			button.id = "btn_" + index;
+			button.onclick = () => playSong(index);
+			li.appendChild(button);
+			songList.appendChild(li);
+
+			// Agregar canción a la playlist
+			playlist.push({
+			  name: file.title || file.name,
+			  url: `https://archive.org/download/${collectionId}/${file.name}`
+			});
+			tot.value = index + 1;
+		  });
+		} else {
+		  songList.innerHTML = "<li>No se encontraron canciones.</li>";
+		}
+	  })
+	  .catch(error => {
+		console.error("Error al cargar canciones:", error);
+		songList.innerHTML = "<li>Error al cargar las canciones.</li>";
+	  });
 	  
 	// Desactiva todos los botones
 	function desactivabtns(){
