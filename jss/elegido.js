@@ -60,6 +60,7 @@ async function fetchThumbnails(collectionId) {
 		 ,{ id: "06-lets-make-a-night-to-remember",				name: "Bryan Adams - Anthology Vol.02" }
 		 ,{ id: "bad-religion-into-the-unknown",				name: "Bad Religion - Into The Unknown" }
 		 ,{ id: "boney_m-nightflight_to_venus-vinyl-1978",		name: "Boney M. - Nightflight To Venus" }
+	         ,{ id: "bad_bunny-debitirarmasfotos",                          name: "DeBí TIRAR MáS FOToS" }
 		 ,{ id: "Bad_Bunny-UnVeranoSinTi",				name: "Bad Bunny - Un Verano Sin Tí" }
 		 ];
 	} else if (letra == "C") {
