@@ -177,13 +177,14 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "P") {
 		 collections = [
-		  { id: "07-silly-love-songs",							name: "Paul McCartney - All The Best" }
-		 ,{ id: "07.-us-and-them_202311",						name: "Pink Floyd - The Dark Side Of The Moon" }
-		 ,{ id: "06.-mother",									name: "Pink Floyd - The Wall Vol.01" }
-		 ,{ id: "06.-comfortably-numb_202311",					name: "Pink Floyd - The Wall Vol.02" }
-		 ,{ id: "06-prince-purple-rain",						name: "Prince - The Very Best" }
-		 ,{ id: "ahora_si_ke_si",								name: "Palmas arriba - Ahora si que sí" }
+		  { id: "07-silly-love-songs",					name: "Paul McCartney - All The Best" }
+		 ,{ id: "07.-us-and-them_202311",				name: "Pink Floyd - The Dark Side Of The Moon" }
+		 ,{ id: "06.-mother",						name: "Pink Floyd - The Wall Vol.01" }
+		 ,{ id: "06.-comfortably-numb_202311",				name: "Pink Floyd - The Wall Vol.02" }
 		 ,{ id: "PinkFloyd_WelcometotheMachine_NY_2jul77",		name: "Pink Floyd - Welcome to the Machine" }
+		 ,{ id: "PinkFloyd03FatOldSun",					name: "Pink Floyd - Labyrinths" }
+		 ,{ id: "06-prince-purple-rain",				name: "Prince - The Very Best" }
+		 ,{ id: "ahora_si_ke_si",					name: "Palmas arriba - Ahora si que sí" }
 		 ];
 	} else if (letra == "Q") {
 		 collections = [
@@ -197,6 +198,7 @@ async function fetchThumbnails(collectionId) {
 		 ,{ id: "15-dani-california-jerry-comann-remix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.01" }
 		 ,{ id: "26-if-you-have-to-ask-the-disco-krisco-mix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.02" }
 		 ,{ id: "50-freaky-styley-extended-red-hot-chili-peppers-p-funk-all-stars",	name: "Red Hot Chili Peppers - Extended & Remixes Vol.03" }
+		 ,{ id: "0901_red_hgot_chili_peppers_californication_1999__mlib",		name: "Red Hot Chili Peppers - Californication"}
 		 ,{ id: "rihanna-dont_stop_the_music-vinyl-2007",				name: "Rihanna - Don't Stop The Music Remixes" }
 		 ,{ id: "05.-sing-this-all-together-see-what-happens",				name: "Rolling Stones - Their Satanic Majesties Request 1967" }
 		 ,{ id: "Radiohead_2018-07-11", 						name: "Radiohead Live - Madison Square Garden" }
