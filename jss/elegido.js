@@ -32,17 +32,18 @@ async function fetchThumbnails(collectionId) {
 		 ];		
 	} else if (letra == "A") {
 		 collections = [
-		  { id: "02-shoot-to-thrill_202307",					name: "ACDC - Back In Black" }		
+		  { id: "02-shoot-to-thrill_202307",			name: "ACDC - Back In Black" }	
+		 ,{ id: "acdc-the-razors-edge",				name: "AC/DC - The Razors Edge" }
 		 ,{ id: "aerosmith-tough-love-the-best-of-the-ballads", name: "Aerosmith - Tough Love" }		
-		 ,{ id: "15.-livin-on-the-edge",						name: "Aerosmith - Big Ones" }
-		 ,{ id: "02-i-dont-want-to-miss-a-thing-pop-mix",		name: "Aerosmith - I Don't Want To Miss a Thing" }
-		 ,{ id: "03.-rooster_202307",							name: "Alice In Chains - Greatest Hits" }
-		 ,{ id: "02-you-know-im-no-good",						name: "Amy Winehouse - Back to Black" }
-		 ,{ id: "11-amy-amy-amy-outro",							name: "Amy Winehouse - Frank" }
-		 ,{ id: "05-like-smoke-feat.-nas",						name: "Amy Winehouse - Lioness-Hidden Treasures" }
-		 ,{ id: "08-anything-but-ordinary_202308",				name: "Avril Lavigne - Let Go" }
-		 ,{ id: "10-girlfriend-junkie-xl-extended-mix",			name: "Avril Lavigne - Masters" }
-		 ,{ id: "11-frogs_20210521",							name: "Alice.In Chains - MTV Unplugged" }		 
+		 ,{ id: "15.-livin-on-the-edge",			name: "Aerosmith - Big Ones" }
+		 ,{ id: "02-i-dont-want-to-miss-a-thing-pop-mix",	name: "Aerosmith - I Don't Want To Miss a Thing" }
+		 ,{ id: "03.-rooster_202307",				name: "Alice In Chains - Greatest Hits" }
+		 ,{ id: "02-you-know-im-no-good",			name: "Amy Winehouse - Back to Black" }
+		 ,{ id: "11-amy-amy-amy-outro",				name: "Amy Winehouse - Frank" }
+		 ,{ id: "05-like-smoke-feat.-nas",			name: "Amy Winehouse - Lioness-Hidden Treasures" }
+		 ,{ id: "08-anything-but-ordinary_202308",		name: "Avril Lavigne - Let Go" }
+		 ,{ id: "10-girlfriend-junkie-xl-extended-mix",		name: "Avril Lavigne - Masters" }
+		 ,{ id: "11-frogs_20210521",				name: "Alice.In Chains - MTV Unplugged" }		 
 		 ];
 	} else if (letra == "B") {
 		 collections = [
@@ -83,12 +84,14 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "D") {
 		 collections = [		 
-		  { id: "12.-diamond-dogs",								name: "David Bowie - The Platinum Collection Vol.01" }
-		 ,{ id: "05.-john-im-only-dancing-again",				name: "David Bowie - The Platinum Collection Vol.02" }
-		 ,{ id: "13.-loving-the-alien",							name: "David Bowie - The Platinum Collection Vol.03" }
-		 ,{ id: "07-b-3-river-deep-mountain-high",				name: "Deep Purple - The Book of the taliesyn / taliesian" }
-		 ,{ id: "deep_purple_-_deep_purple_vinyl_rip",			name: "Deep Purple - Deep Purple 1969" }
-		 ,{ id: "beauty-school",								name: "Deftones - Diamond Eyes" }
+		  { id: "12.-diamond-dogs",				name: "David Bowie - The Platinum Collection Vol.01" }
+		 ,{ id: "05.-john-im-only-dancing-again",		name: "David Bowie - The Platinum Collection Vol.02" }
+		 ,{ id: "13.-loving-the-alien",				name: "David Bowie - The Platinum Collection Vol.03" }
+		 ,{ id: "07-b-3-river-deep-mountain-high",		name: "Deep Purple - The Book of the taliesyn / taliesian" }
+		 ,{ id: "deep_purple_-_deep_purple_vinyl_rip",		name: "Deep Purple - Deep Purple 1969" }
+		 ,{ id: "07-deep-purple-child-in-time",			name: "Deep Purple - Essential [FLAC]" }
+		 ,{ id: "deeppurplemachineheadoriginalrecordrip",	name: "Deep Purple - Machine Head" }
+		 ,{ id: "beauty-school",				name: "Deftones - Diamond Eyes" }
 		 ,{ id: "donna_summer-the_wanderer-vinyl_single-1980",	name: "Donna Summer - The Wanderer" }
 		 ];
 	} else if (letra == "E") {
@@ -161,6 +164,8 @@ async function fetchThumbnails(collectionId) {
 		   ,{ id: "blackalbum_202304", 					name: "Metallica - Black Album" }
 		   ,{ id: "BeyondMagneticEP",					name: "Metallica - Beyond Magnetic" }
 		   ,{ id: "MetallicaMOP",					name: "Metallica - Master Of Puppets" }
+		   ,{ id: "02-the-four-horsemen-metallica-1983",		name: "Metallica - Kill 'Em All [FLAC]" }
+		   ,{ id: "metallica_...-and-justice-for-all",			name: "Metallica - ...And Justice For All [FLAC]"}
 		   ,{ id: "modern-talking-brother-louie-special-long-version", 	name: "Modern Talking - Brother Louie ( Special Long Version)" }
 			
 		 ];
@@ -198,7 +203,7 @@ async function fetchThumbnails(collectionId) {
 		 ,{ id: "15-dani-california-jerry-comann-remix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.01" }
 		 ,{ id: "26-if-you-have-to-ask-the-disco-krisco-mix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.02" }
 		 ,{ id: "50-freaky-styley-extended-red-hot-chili-peppers-p-funk-all-stars",	name: "Red Hot Chili Peppers - Extended & Remixes Vol.03" }
-		 ,{ id: "0901_red_hgot_chili_peppers_californication_1999__mlib",		name: "Red Hot Chili Peppers - Californication"}
+		 ,{ id: "0901_red_hgot_chili_peppers_californication_1999__mlib",		name: "Red Hot Chili Peppers - Californication [FLAC]"}
 		 ,{ id: "rihanna-dont_stop_the_music-vinyl-2007",				name: "Rihanna - Don't Stop The Music Remixes" }
 		 ,{ id: "05.-sing-this-all-together-see-what-happens",				name: "Rolling Stones - Their Satanic Majesties Request 1967" }
 		 ,{ id: "Radiohead_2018-07-11", 						name: "Radiohead Live - Madison Square Garden" }
