@@ -133,12 +133,13 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "I") {
 		 collections = [
-		  { id: "05-suicide-blonde-demolition-mix",				name: "INXS - Suicide Blonde" }
-		 ,{ id: "07.-devil-inside",								name: "INXS - The Greatest Hits" }
+		  { id: "05-suicide-blonde-demolition-mix",			name: "INXS - Suicide Blonde" }
+		 ,{ id: "07.-devil-inside",					name: "INXS - The Greatest Hits" }
 		 ,{ id: "iron_maiden-brave_new_world-vinyl-2000",		name: "Iron Maiden - Brave New World" }
-		 ,{ id: "seventh-son-of-a-seventh-son",					name: "Iron Maiden - Seventh Son Of A Seventh Son" }
-		 ,{ id: "silver-as-in-silence",							name: "Iron Maiden - The Book Of Souls" }		
-		 ,{ id: "isabel-pantoja-grandes-exitos",				name: "Isabel Pantoja - Grandes Exitos" }
+		 ,{ id: "seventh-son-of-a-seventh-son",				name: "Iron Maiden - Seventh Son Of A Seventh Son" }
+		 ,{ id: "silver-as-in-silence",					name: "Iron Maiden - The Book Of Souls" }
+		 ,{ id: "iron-maiden-killers",					name: "Iron Maiden - Killers" }
+		 ,{ id: "isabel-pantoja-grandes-exitos",			name: "Isabel Pantoja - Grandes Exitos" }
 		 ];
 	} else if (letra == "J") {
 		 collections = [
@@ -156,9 +157,11 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "M") {
 		 collections = [
-			{ id: "fixxxer_202105",								name: "Metallica - Reload" }
-		   ,{ id: "wherever-i-may-roam", 						name: "Metallica - Black Album" }
-		   ,{ id: "modern-talking-brother-louie-special-long-version", name: "Modern Talking Brother Louie ( Special Long Version)" }
+		    { id: "fixxxer_202105",					name: "Metallica - Reload" }
+		   ,{ id: "blackalbum_202304", 					name: "Metallica - Black Album" }
+		   ,{ id: "BeyondMagneticEP",					name: "Metallica - Beyond Magnetic" }
+		   ,{ id: "MetallicaMOP",					name: "Metallica - Master Of Puppets" }
+		   ,{ id: "modern-talking-brother-louie-special-long-version", 	name: "Modern Talking - Brother Louie ( Special Long Version)" }
 			
 		 ];
 	} else if (letra == "N") {
@@ -168,8 +171,9 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "O") {
 		 collections = [
-		  { id: "a-lo-cubano-album",							name: "Orishas - A lo cubano" }		 
-		 ,{ id: "cosita-buena-album",							name: "Orishas - Cosita Buena" }
+		  { id: "a-lo-cubano-album",					name: "Orishas - A lo cubano" }		 
+		 ,{ id: "cosita-buena-album",					name: "Orishas - Cosita Buena" }
+		 ,{ id: "BlizzardOfOzz",					name: "Ozzy Osbourne - Blizzard of Ozz" }
 		 ];
 	} else if (letra == "P") {
 		 collections = [
@@ -189,22 +193,38 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "R") {
 		 collections = [
-		  { id: "06.-dont-go-back-to-rockville",									name: "R.E.M - The Best Of" }
-		 ,{ id: "15-dani-california-jerry-comann-remix",							name: "Red Hot Chili Peppers - Extended & Remixes Vol.01" }
-		 ,{ id: "26-if-you-have-to-ask-the-disco-krisco-mix",						name: "Red Hot Chili Peppers - Extended & Remixes Vol.02" }
+		  { id: "06.-dont-go-back-to-rockville",					name: "R.E.M - The Best Of" }
+		 ,{ id: "15-dani-california-jerry-comann-remix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.01" }
+		 ,{ id: "26-if-you-have-to-ask-the-disco-krisco-mix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.02" }
 		 ,{ id: "50-freaky-styley-extended-red-hot-chili-peppers-p-funk-all-stars",	name: "Red Hot Chili Peppers - Extended & Remixes Vol.03" }
-		 ,{ id: "rihanna-dont_stop_the_music-vinyl-2007",							name: "Rihanna - Don't Stop The Music Remixes" }
-		 ,{ id: "05.-sing-this-all-together-see-what-happens",						name: "Rolling Stones - Their Satanic Majesties Request 1967" }
-		 ,{ id: "Radiohead_2018-07-11", 											name: "Radiohead Live - Madison Square Garden" }
+		 ,{ id: "rihanna-dont_stop_the_music-vinyl-2007",				name: "Rihanna - Don't Stop The Music Remixes" }
+		 ,{ id: "05.-sing-this-all-together-see-what-happens",				name: "Rolling Stones - Their Satanic Majesties Request 1967" }
+		 ,{ id: "Radiohead_2018-07-11", 						name: "Radiohead Live - Madison Square Garden" }
+		 ,{ id: "SehnsuchtFlack", 							name: "Rammstein - Sehnsucht" }
+		 ,{ id: "RammsteinHerzeleidFlac",						name: "Rammstein - Herzeleid" }
+		 ,{ id: "RammsteinRaritaten",							name: "Rammstein - Raritäten" }
+		 ,{ id: "MutterFlac",								name: "Rammstein - Mutter" }
+		 ,{ id: "RammsteinReiseReiseFlac",						name: "Rammstein - Reise, Reise" }
+		 ,{ id: "RammCollection",							name: "Rammstein - Składanka" }
+		 ,{ id: "RammsteinUntitled",							name: "Rammstein - Untitled" }
+		 ,{ id: "rammsteinxxiklavier",							name: "Rammstein - XXI - Klavier" }
+		 ,{ id: "RammsteinZeit2022",							name: "Rammstein - Zeit" }
 		 ];
 	} else if (letra == "S") {
 		 collections = [
-		  { id: "07-troy",										name: "Sinead O' Connor - So Far...The Best Of" }
+		  { id: "07-troy",						name: "Sinead O' Connor - So Far...The Best Of" }
 		 ,{ id: "06-walking-on-the-moon-the-police",			name: "Sting & The Police - The Very Best" }
 		 ,{ id: "sebastian-megamix-24-super-hits-2010-907",		name: "Sebastián - Megamix" }
 		 ,{ id: "simpy_red-picture_book-vinyl-1985",			name: "Simply Red - Picture Book" }
-		 ,{ id: "gemini_202105",								name: "Slayer - Undisputed Attitude" }				 		 
-		 ,{ id: "10-seasons-in-the-abyss",						name: "Slayer Seasons In The Abyss" }				 		 
+		 ,{ id: "gemini_202105",					name: "Slayer - Undisputed Attitude" }				 		 
+		 ,{ id: "10-seasons-in-the-abyss",				name: "Slayer Seasons In The Abyss" }
+		 ,{ id: "SystemOfaDownCollection",				name: "System Of a Down (Full Discography Collection 1998 - 2005)" }
+		 ,{ id: "slipknot_1999",					name: "Slipknot - Slipknot" }
+		 ,{ id: "adderall-instrumental",				name: "Slipknot - Adderall" }
+		 ,{ id: "iowa_album",						name: "Slipknot - Iowa" }
+		 ,{ id: "loyw_fanmade",						name: "Slipknot - Look Outside Your Window" }
+		 ,{ id: "the-end-so-far_202209",				name: "Slipknot - The End, So Far" }
+		 ,{ id: "thegraychapter",					name: "Slipknot - The Gray Chapter" }
 		 ];
 	} else if (letra == "T") {
 		 collections = [
@@ -242,16 +262,19 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else { // LETRA #	
 		 collections = [
-		 { id: "fiesta-mixes",									name: "Fiestas Mixes" }
-		,{ id: "Raggamufin",									name: "Raggamufin" }
+		 { id: "fiesta-mixes",						name: "Fiestas Mixes" }
+		,{ id: "Raggamufin",						name: "Raggamufin" }
 		,{ id: "compilado-musica-anos-80-90-00-cd01",			name: "Compilado Musica Años 80-90-00 cd01" }
 		,{ id: "compilado-musica-anos-80-90-00-cd-02",			name: "Compilado Musica Años 80-90-00 cd02" }
 		,{ id: "compilado-musica-anos-80-90-00-cd-03",			name: "Compilado Musica Años 80-90-00 cd03" }
-		,{ id: "los-mox",										name: "Los Mox - Todos los Discos" }
-		,{ id: "mix-cumbias",									name: "Mix Cumbias" }
-		,{ id: "the-classic-project",							name: "Todos Los Classic Project" }
-		,{ id: "billboard-80s",									name: "Musica Billboard 80s" }
-		,{ id: "djdaga-megamix-chep",							name: "Dj Daga - Megamix Chancho en Piedra" }
+		,{ id: "los-mox",						name: "Los Mox - Todos los Discos" }
+		,{ id: "mix-cumbias",						name: "Mix Cumbias" }
+		,{ id: "the-classic-project",					name: "Todos Los Classic Project" }
+		,{ id: "billboard-80s",						name: "Musica Billboard 80s" }
+		,{ id: "djdaga-megamix-chep",					name: "Dj Daga - Megamix Chancho en Piedra" }
+		,{ id: "playlisthifi", 						name: "Metal PlayList CD1 (Hi-Fi Collection)" } 
+		,{ id: "hificollectionp2",					name: "Metal PlayList CD2 (Hi-Fi Collection)" }
+		,{ id: "RammsteinBest",						name: "Rammstein - Lo Mejor" }
 		 ];
 	}
 
