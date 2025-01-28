@@ -7,14 +7,29 @@
     const songList = document.getElementById("songList");
     const audioPlayer = document.getElementById("audioPlayer");
 
+	// Ruta imagen
+	const imgURL = `https://archive.org/download/${collectionId}/__ia_thumb.jpg`;
+	
     // Mostrar el valor en el título
 	const huno = document.getElementById("titulo");
 	if (huno) {
       huno.textContent = collectionName;
-    } else {
-      huno.textContent = "Rockola Virtual";
+	  huno.style.color = "#FFF";
+	  huno.style.textShadow = "3px 3px 5px #00f"; // Ajusta los valores según el efecto deseado
     }
+	
+	// Titulo de la Canción
+	songName.textContent = `Reproduciendo: `;
+	songName.style.color = "#FFF";
+	songName.style.textShadow = "5px 5px 7px #00f"; // Ajusta los valores según el efecto deseado
 
+	// Mostrar imagen de disco en cabecera
+	const divimg = document.getElementById("cabecera-disco");
+	divimg.style.backgroundImage    = `url('${imgURL}')`;
+	divimg.style.backgroundSize     = `100% 100%`; 	// Asegura que la imagen cubra todo el div
+	divimg.style.backgroundRepeat   = `no-repeat`; 	// Evita que la imagen se repita
+	divimg.style.backgroundPosition = "top"; 		// Centra la imagen en el div
+	
 	//Input oculto para saber el total de canciones cargadas;
 	const tot = document.getElementById("totalsong");
 	tot.value = 0;
