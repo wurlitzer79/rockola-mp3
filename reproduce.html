@@ -7,24 +7,29 @@
   <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-	<main>
-	  <div class="rockola">
-		<h1 id="titulo">Rockola Santibáñez</h1>
-		<div style="display: flex;">
-			<div style="width:80%; text-align:left;">
-				<audio id="audioPlayer" controls></audio>
-				<div id="songName" style="width:100%; padding-left:20px;">Reproduciendo: </div>
+	<header>
+		<div class="rockola_header">
+			<h1 style="width:100%; text-align:center;" id="titulo">Rockola Santibáñez</h1>
+			<br>
+			<div style="display: flex;">
+				<div style="width:80%; text-align:left;">
+					<audio id="audioPlayer" controls></audio>
+					<div id="songName" style="width:100%; padding-left:20px;">Reproduciendo: </div>
+				</div>
+				<div style="width:20%; margin: auto;">
+					<a href="javascript:history.back()" alt="Volver Atrás"><img src="img/volver.png" width="60px"></a>
+					<a href="index.html" alt="Volver Menú"><img src="img/home.png" width="60px"></a>
+				</div>
 			</div>
-			<div style="width:20%; margin: auto;">
-				<a href="javascript:history.back()" alt="Volver Atrás"><img src="img/volver.png" width="60px"></a>
-				<a href="index.html" alt="Volver Menú"><img src="img/home.png" width="60px"></a>
-			</div>
-		</div>		
-		<ul id="songList"><li>Cargando canciones...</li></ul>
-		<input id="totalsong" type="hidden" value="" />
-	  </div>
-	  <script src="jss/reproduce.js"></script>
-	</main>
+		</div>
+	</header>
+    <main class="main_rep3">
+        <div class="content">
+			<ul id="songList"><li>Cargando canciones...</li></ul>
+			<input id="totalsong" type="hidden" value="" />		
+			<script src="jss/reproduce.js"></script>
+        </div>
+    </main>
 	<footer>
 		<div style="width:100%; text-align:center;">
 			℗copyright 2025 - Luis Santibáñez
