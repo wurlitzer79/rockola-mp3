@@ -69,8 +69,8 @@
 	  .then(response => response.json())
 	  .then(data => {
 		// Filtrar archivos por extensión
-		const mp3Files = data.files.filter(file => file.name.endsWith(".mp3"));
-		const flacFiles = data.files.filter(file => file.name.endsWith(".flac"));
+		const mp3Files = data.files.filter(file => file.name.toLowerCase().endsWith(".mp3"));
+		const flacFiles = data.files.filter(file => file.name.toLowerCase().endsWith(".flac"));
 
 		// Elegir qué extensión cargar (MP3 tiene prioridad)
 		const files = mp3Files.length > 0 ? mp3Files : flacFiles;
@@ -81,7 +81,7 @@
 		  files.forEach((file, index) => {
 			const li = document.createElement("li");
 			const button = document.createElement("button");
-			button.textContent = file.title || file.name; // Usar título o nombre del archivo
+			button.textContent = (index+1) + ".- " +  (file.title || file.name); // Usar título o nombre del archivo
 			button.id = "btn_" + index;
 			button.onclick = () => playSong(index);
 			li.appendChild(button);
