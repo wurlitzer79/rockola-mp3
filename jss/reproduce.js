@@ -116,7 +116,7 @@
     function playSong(index) {	  
       currentIndex = index;
       audioPlayer.src = playlist[currentIndex].url;
-	  songName.textContent = `Reproduciendo: ` + playlist[currentIndex].name;	  
+	  songName.textContent = `Reproduciendo: ` + (currentIndex+1) + ".- " +  playlist[currentIndex].name;	  
       audioPlayer.play();
 	  
 	  //desactivabtns();	
