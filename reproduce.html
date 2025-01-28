@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-	<header>
+	<header id="cabecera-disco">
 		<div class="rockola_header">
 			<h1 style="width:100%; text-align:center;" id="titulo">Rockola Santibáñez</h1>
-			<br>
+			<input id="totalsong" type="hidden" value="" /><br>
 			<div style="display: flex;">
 				<div style="width:80%; text-align:left;">
 					<audio id="audioPlayer" controls></audio>
@@ -26,8 +26,7 @@
     <main class="main_rep3">
         <div class="content">
 			<ul id="songList"><li>Cargando canciones...</li></ul>
-			<input id="totalsong" type="hidden" value="" />		
-			<script src="jss/reproduce.js"></script>
+			<script src="jss/reproduce.js"></script>					
         </div>
     </main>
 	<footer>
