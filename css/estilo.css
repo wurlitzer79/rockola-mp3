@@ -338,12 +338,12 @@
 		}
 
         .main_rep3 {
-            margin-top		: 235px; 	/* Deja espacio para el header */ 
+            margin-top		: 220px; 	/* Deja espacio para el header */ 
             margin-bottom	:  40px; 	/* Deja espacio para el footer */
             overflow-y		: auto; 	/* Habilita el scroll solo en el main */ 
-            flex			: 1; 		/* El main ocupa el espacio restante */ 
+            flex		: 1; 		/* El main ocupa el espacio restante */ 
             background		: #222; 	/* Fondo main */
-			width			: 100%;
+	    width		: 100%;
         }
 
         .content {
