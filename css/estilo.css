@@ -338,7 +338,7 @@
 	}
 
         .main_rep3 {
-            margin-top		: 225px; 	/* Deja espacio para el header */ 
+            margin-top		: 235px; 	/* Deja espacio para el header */ 
             margin-bottom	:  40px; 	/* Deja espacio para el footer */ 
             overflow-y		: auto; 	/* Habilita el scroll solo en el main */ 
             flex		: 1; 		/* El main ocupa el espacio restante */ 
