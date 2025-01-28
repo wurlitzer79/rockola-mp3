@@ -328,25 +328,26 @@
 /*fin carrusel indice 3*/
 
 /*ini reproduce 3*/
-	.rockola_header {
-		width		: 85%;
-		heigth		: 250px;
-		margin		: 10px auto;
-		border		: 0px solid #222;
-		border-radius	: 10px;
-		display		: flex-wrap;
-	}
+		.rockola_header {
+			width			: 85%;
+			heigth			: 250px;
+			margin			: 10px auto;
+			border			: 0px solid #222;
+			border-radius	: 10px;
+			display			: flex-wrap;
+		}
 
         .main_rep3 {
             margin-top		: 235px; 	/* Deja espacio para el header */ 
-            margin-bottom	:  40px; 	/* Deja espacio para el footer */ 
+            margin-bottom	:  40px; 	/* Deja espacio para el footer */
             overflow-y		: auto; 	/* Habilita el scroll solo en el main */ 
-            flex		: 1; 		/* El main ocupa el espacio restante */ 
+            flex			: 1; 		/* El main ocupa el espacio restante */ 
             background		: #222; 	/* Fondo main */
+			width			: 100%;
         }
 
         .content {
-            <!-- height			: 2000px; 	/* Contenido largo para probar el scroll */ -->
-            background		: linear-gradient(to bottom, #222, #222);	/* Fondo listado reproduce */
+            /* height		    : 2000px; */	/* Contenido largo para probar el scroll */
+            background		: linear-gradient(to bottom, #222, #222);	/* Fondo listado reproduce */			
         }
 /*fin reproduce 3*/
