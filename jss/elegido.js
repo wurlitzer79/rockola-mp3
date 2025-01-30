@@ -29,7 +29,9 @@ async function fetchThumbnails(collectionId) {
 		 collections = [
 		 { id: "300-christmas-songs_202305",					name: "300 Christmas Songs" }
 		,{ id: "03-whats-up_202307",					    	name: "4 Non Blondes - Bigger, Better, Faster, More!" }
-		,{ id: "08-all-you-zombies-album-version",				name: "80s Rock - The Essential" }		  
+		,{ id: "Get-Rich-or-Die-Tryin-42069",					name: "50 Cent - Get Rich or Die Tryin'" } 
+		,{ id: "08-all-you-zombies-album-version",				name: "80s Rock - The Essential" }
+		,{ id: "007.-robert-miles-fable-dream-version",			name: "90's Eurodance Part III" } 
 		 ];		
 	} else if (letra == "A") { //ORDENADO
 		 collections = [
@@ -87,7 +89,8 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "D") { //ORDENADO
 		 collections = [		 
-		  { id: "12.-diamond-dogs",								name: "David Bowie - The Platinum Collection Vol.01" }
+		  { id: "daft-punk-homework",							name: "Daft Punk - Homework 1997" } 
+		 ,{ id: "12.-diamond-dogs",								name: "David Bowie - The Platinum Collection Vol.01" }
 		 ,{ id: "05.-john-im-only-dancing-again",				name: "David Bowie - The Platinum Collection Vol.02" }
 		 ,{ id: "13.-loving-the-alien",							name: "David Bowie - The Platinum Collection Vol.03" }
 		 ,{ id: "07-b-3-river-deep-mountain-high",				name: "Deep Purple - The Book of the taliesyn / taliesian" }
@@ -241,7 +244,8 @@ async function fetchThumbnails(collectionId) {
 		 ];
 	} else if (letra == "T") {
 		 collections = [
-		  { id: "04.-shout",									name: "Tears For Fears - Greatest Hits" }
+		  { id: "let-it-happen", 								name: "Tame Impala - Currents" }
+		 ,{ id: "04.-shout",									name: "Tears For Fears - Greatest Hits" }
 		 ,{ id: "21-hey-jude_202404",							name: "The Beatles - Beatles 1" }
 		 ,{ id: "23-a-day-in-the-life_202404",					name: "The Beatles - Love" }
 		 ,{ id: "15-the-police-wrapped-around-your-finger",		name: "The Police - Greatest Hits" }
@@ -293,6 +297,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "mix-cumbias",									name: "Mix Cumbias" }
 		,{ id: "Raggamufin",									name: "Raggamufin" }		
 		,{ id: "RammsteinBest",									name: "Rammstein - Lo Mejor" }
+		,{ id: "ShrekMusicfromtheOriginalMotionPicture", 		name: "Shrek - Music from the Original Motion Picture" } 
 		,{ id: "sonic-mana-original-soundtrack",				name: "Sonic Mania Original Soundtrack (FLAC)" }
 		,{ id: "the-classic-project",							name: "Todos Los Classic Project" }
 		,{ id: "the-fast-and-the-furious-collection",			name: "The Fast And The Furious Collection" }
