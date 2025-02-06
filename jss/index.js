@@ -1,5 +1,5 @@
       const container = document.querySelector(".alphabet-container");
-      const alphabet = "0ABCDEFGHIJKLMNOPQRSTUVWXYZ♫#";
+      const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#";
 
       alphabet.split("").forEach(letter => {
         const button = document.createElement("button");
