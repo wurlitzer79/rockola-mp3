@@ -49,6 +49,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "anthony_ventura-music_for_making_love_2-vinyl-1982",		name: "Anthony Ventura - Music For Making Love II" }			
 		,{ id: "08-anything-but-ordinary_202308",				name: "Avril Lavigne - Let Go" }
 		,{ id: "10-girlfriend-junkie-xl-extended-mix",				name: "Avril Lavigne - Masters" }
+		,{ id: "aparcoachile",							name: "Aparcoa - Chile" }
 		,{ id: "bad-religion-into-the-unknown",					name: "Bad Religion - Into The Unknown" }
 		,{ id: "Bad_Bunny-UnVeranoSinTi",					name: "Bad Bunny - Un Verano Sin Tí" }
 		,{ id: "bad_bunny-debitirarmasfotos",                  			name: "Bad Bunny - DeBí TIRAR MáS FOToS" }
