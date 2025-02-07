@@ -38,7 +38,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "02-i-dont-want-to-miss-a-thing-pop-mix",			name: "Aerosmith - I Don't Want To Miss a Thing" }
 		,{ id: "albertocortezargentina",					name: "Alberto Cortez - Argentina" }
 		,{ id: "03.-rooster_202307",						name: "Alice In Chains - Greatest Hits" }
-		,{ id: "11-frogs_20210521",						name: "Alice.In Chains - MTV Unplugged" }		 
+		,{ id: "11-frogs_20210521",						name: "Alice.In Chains - MTV Unplugged" }
+		,{ id: "armando-hernandez-si-vas-para-chile-1996-35",			name: "Armando Hernández - Si Vas Para Chile" }
 		,{ id: "02-you-know-im-no-good",					name: "Amy Winehouse - Back to Black" }
 		,{ id: "11-amy-amy-amy-outro",						name: "Amy Winehouse - Frank" }
 		,{ id: "05-like-smoke-feat.-nas",					name: "Amy Winehouse - Lioness-Hidden Treasures" }
