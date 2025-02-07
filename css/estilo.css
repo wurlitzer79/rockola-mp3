@@ -311,7 +311,7 @@
       box-shadow	: 0 4px 6px rgba(0, 0, 0, 0.2);
       z-index		: 10; /* Asegura que las flechas estén por encima */
       position		: absolute;
-      top		: 60%; /* Centra las flechas verticalmente */
+      top		: 50%; /* Centra las flechas verticalmente */
       transform		: translateY(-50%);
     }
     .swiper-button-next {
