@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rockola Santibáñez</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="body2">  
+	<h2 style="z-index:100;">Con qué letra comienza el nombre de tu grupo musical favorito !</h2>  
+	<div class="carousel-container" id="carousel">
+    <!-- Las letras se insertarán dinámicamente -->
+  </div>
+  <script>
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
+    const carousel = document.getElementById("carousel");
+    const totalLetters = alphabet.length;
+
+    // Generar las letras dinámicamente en un círculo
+    alphabet.forEach((letter, index) => {
+      const div = document.createElement("div");
+      div.className = "carousel-item";
+      div.textContent = letter;
+
+      // Calcular el ángulo de cada letra
+      const angle = (index / totalLetters) * 360;
+      div.style.transform = `rotateY(${angle}deg) translateZ(200px)`; // Ajustar el radio del círculo
+      div.addEventListener("click", () => {
+        //alert(`Seleccionaste la letra: ${letter}`);
+		location.href = `elegido.html?valor=${letter}`;
+      });
+
+      carousel.appendChild(div);
+    });
+  </script>
+  <footer>
+    <div style="width:100%; text-align:center;">
+		℗copyright 2025 - Luis Santibáñez
+	</div>
+  </footer>  
+</body>
+</html>

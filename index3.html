@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rockola Santibáñez</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">  
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<h2 style="z-index:100; padding-bottom:30px;">Con qué letra comienza el nombre de tu grupo musical favorito !</h2> 
+	<!-- Contenedor del Swiper -->
+	<div class="swiper">
+		<div class="swiper-wrapper">
+		  <!-- Las letras del abecedario se generan aquí -->
+		  <script>
+			// Generar las letras del abecedario dinámicamente
+			const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split('');
+			alphabet.forEach(letter => {
+			  document.write(`
+				<!-- <div class="swiper-slide" onclick="alert('Has seleccionado la letra: ${letter}')">${letter}</div> -->
+				<div class="swiper-slide" onclick="window.location.href='elegido.html?valor=${letter}'">${letter}</div>
+			  `);
+			});
+		  </script>
+		</div>
+	</div>
+	<!-- Botones de navegación -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>  
+	<!-- Scripts de Swiper -->
+	<script src="jss/swiper-bundle.min.js"></script>
+	<script>
+	// Inicializar el Swiper
+	const swiper = new Swiper('.swiper', {
+	  slidesPerView: 6,        // Mostrar 5 letras al mismo tiempo
+	  spaceBetween: 15,        // Espacio entre las letras
+	  loop: true,              // Carrusel infinito
+	  centeredSlides: true,    // Centrar las letras
+	  grabCursor: true,        // Permitir arrastrar con el puntero
+	  autoplay: {
+		delay: 5000,           // Deslizar automáticamente cada 5 segundos
+		disableOnInteraction: false, // Continuar el autoplay después de interacción
+	  },
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	});
+	</script>
+	<footer>
+		<div style="width:100%; text-align:center;">
+			℗copyright 2025 - Luis Santibáñez
+		</div>
+	</footer>  
+</body>
+</html>
