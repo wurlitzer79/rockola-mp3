@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; URL='index3.html'">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rockola Santibáñez</title>
   <link rel="stylesheet" href="css/estilo.css">
@@ -10,7 +11,25 @@
   <main>
   <h2>Con qué letra comienza el nombre de tu grupo musical favorito !</h2>  
   <div class="alphabet-container">
-	<script src="jss/index.js"></script>
+	<script>
+	  const container = document.querySelector(".alphabet-container");
+	  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#";
+
+	  alphabet.split("").forEach(letter => {
+		const button = document.createElement("button");
+		button.textContent = letter;
+		button.className = "alphabet-button";        
+		//button.innerHTML = `<a href="index.html?valor=${letter}">${letter}</a>`;
+		
+		// Evento para mostrar un alert al hacer clic
+		button.addEventListener("click", () => {
+		  //alert(`Has seleccionado la letra: ${letter}`);
+			location.href = `elegido.html?valor=${letter}`;
+		});
+
+		container.appendChild(button);
+	  });		
+	</script>
   </div>
   <h3>Siempre agregando nuevos discos...</h3>
   </main>
