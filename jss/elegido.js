@@ -218,6 +218,18 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "the-offspring-let-the-bad-times-roll-2021",			name: "The Offspring - Let The Bad Times Roll" }		 
 		,{ id: "yazoo-situation-1990",						name: "Yazoo - Situation" }
 		,{ id: "yerba-brava-20-grandes-exitos-2007-39",				name: "Yerba Brava - 20 Grandes Éxitos" }
+		,{ id: "",                                                              name: "" }
+		,{ id: "90s-eurodance-part-ii-compiled-by-electro75-2018",		name: "90's Eurodance Part II" }
+		,{ id: "xxxl-2012",							name: "Лучшая музыка для секса" }
+		,{ id: "super-techno-discothek-vol.1-25-1995",				name: "Super Techno Discothek Vol.1-25 (1995)" }
+		,{ id: "masters-of-hardcore-full-collection-of-series",			name: "Masters Of Hardcore - Full Collection Of Series" }
+		,{ id: "megaherz-discography",						name: "Megaherz - Discography" }
+		,{ id: "oceanica-2021",							name: "Oceanica - Musica Ambiental" }
+		,{ id: "spa-massage-2019",						name: "Spa Massage" }
+		,{ id: "11-noch-zu-retten",						name: "Eisbrecher - Schock 2015" }
+		,{ id: "04-in-einem-boot",						name: "Eisbrecher - Sturmfahrt 2017" }
+		,{ id: "12-menschenfresser",						name: "Eisbrecher - Schicksalsmelodien 2020" }		
+		,{ id: "04-im-guten-im-bosen",						name: "Eisbrecher - Liebe Macht Monster 2021" }		
 		];	
 
   const menu = document.getElementById("menu");
