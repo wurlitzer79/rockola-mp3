@@ -233,7 +233,10 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "15-the-police-wrapped-around-your-finger",			name: "The Police - Greatest Hits" }
 		,{ id: "the-cure-greatest-hits-cdrip-bubanee",				name: "The Cure - Greatest Hits" }
 		,{ id: "the-offspring-let-the-bad-times-roll-2021",			name: "The Offspring - Let The Bad Times Roll" }		 
+		,{ id: "VengaBoys-ThePartyAlbum",					name: "VengaBoys - The Party Album 1998" }		
+		,{ id: "VengaBoys-ThePlatinumAlbum",					name: "VengaBoys - The Platinum Album 2001" }			
 		,{ id: "yazoo-situation-1990",						name: "Yazoo - Situation" }
+		,{ id: "Yazoo-TheBestOfYazoo",						name: "Yazoo - The Best Of Yazoo" }
 		,{ id: "yerba-brava-20-grandes-exitos-2007-39",				name: "Yerba Brava - 20 Grandes Éxitos" }
 		];	
 
