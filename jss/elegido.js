@@ -26,11 +26,14 @@ async function fetchThumbnails(collectionId) {
 		let collections;
 		
 		collections = [
-		 { id: "300-christmas-songs_202305",					name: "300 Christmas Songs" }
+		 { id: "14-unknown-artist-track-14",					name: "10 Años De Exitos Con Radio Corazón" }
+		,{ id: "300-christmas-songs_202305",					name: "300 Christmas Songs" }
 		,{ id: "03-whats-up_202307",					    	name: "4 Non Blondes - Bigger, Better, Faster, More!" }
 		,{ id: "Get-Rich-or-Die-Tryin-42069",					name: "50 Cent - Get Rich or Die Tryin'" } 
 		,{ id: "08-all-you-zombies-album-version",				name: "80s Rock - The Essential" }
-		,{ id: "007.-robert-miles-fable-dream-version",				name: "90's Eurodance Part III" } 
+		,{ id: "euro-dance",							name: "90's EuroDance Parte I" }
+		,{ id: "90s-eurodance-part-ii-compiled-by-electro75-2018",		name: "90's EuroDance Parte II" }		
+		,{ id: "007.-robert-miles-fable-dream-version",			  	name: "90's EuroDance Parte III" } 
 		,{ id: "02-shoot-to-thrill_202307",					name: "ACDC - Back In Black" }
 		,{ id: "acdc-the-razors-edge",						name: "AC/DC - The Razors Edge" }		 
 		,{ id: "aerosmith-tough-love-the-best-of-the-ballads", 			name: "Aerosmith - Tough Love" }		
@@ -39,7 +42,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "albertocortezargentina",					name: "Alberto Cortez - Argentina" }
 		,{ id: "03.-rooster_202307",						name: "Alice In Chains - Greatest Hits" }
 		,{ id: "11-frogs_20210521",						name: "Alice.In Chains - MTV Unplugged" }
-		,{ id: "armando-hernandez-si-vas-para-chile-1996-35",			name: "Armando Hernández - Si Vas Para Chile" }
+		,{ id: "armando-hernandez-si-vas-para-chile-1996-35",			name: "Armando Hernández - Si Vas Para Chile" }		
 		,{ id: "02-you-know-im-no-good",					name: "Amy Winehouse - Back to Black" }
 		,{ id: "11-amy-amy-amy-outro",						name: "Amy Winehouse - Frank" }
 		,{ id: "05-like-smoke-feat.-nas",					name: "Amy Winehouse - Lioness-Hidden Treasures" }
@@ -105,17 +108,24 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "deeppurplemachineheadoriginalrecordrip",			name: "Deep Purple - Machine Head" }
 		,{ id: "beauty-school",							name: "Deftones - Diamond Eyes" }
 		,{ id: "donna_summer-the_wanderer-vinyl_single-1980",			name: "Donna Summer - The Wanderer" }
+		,{ id: "edith_piaf-edith_piaf-vinyl-1972",				name: "Edith Piaf - Edith Piaf" }		
+		,{ id: "16-fanatica-club-mix",						name: "Eisbrecher - Eisbrecher 2004" }		
+		,{ id: "08-kein-mitleid",						name: "Eisbrecher - Antikörper 2006" }		
+		,{ id: "06-segne-deinen-schmerz",					name: "Eisbrecher - Eiszeit 2010" }
+		,{ id: "14-treiben",							name: "Eisbrecher - Die Hölle muss warten 2012" }
+		,{ id: "11-noch-zu-retten",						name: "Eisbrecher - Schock 2015" }
+		,{ id: "04-in-einem-boot",						name: "Eisbrecher - Sturmfahrt 2017" }
+		,{ id: "12-menschenfresser",						name: "Eisbrecher - Schicksalsmelodien 2020" }		
+		,{ id: "04-im-guten-im-bosen",						name: "Eisbrecher - Liebe Macht Monster 2021" }		
+		,{ id: "03-bridge-over-troubled-water-elvis-presley_202408",		name: "Elvis Presley - Greatest Hits" }		 		
 		,{ id: "enanitosverdesargentina",					name: "Enanitos Verdes - Argentina" }
-		,{ id: "euro-dance",							name: "Euro Dance - The Best" }
 		,{ id: "03-carrie",							name: "Europe - Gold Vol.01" }
 		,{ id: "06-sweet-love-child",						name: "Europe - Gold Vol.02" }
 		,{ id: "14-yesterdays-news",						name: "Europe - Gold Vol.03" }
-		,{ id: "edith_piaf-edith_piaf-vinyl-1972",				name: "Edith Piaf - Edith Piaf" }
 		,{ id: "blues-away",							name: "Erasure - I Say I Say I Say" }
 		,{ id: "take-me-out-of-myself",						name: "Erasure - World Be Gone" }
 		,{ id: "eternal_202105",						name: "Evanescence - Origin" }
 		,{ id: "never-going-back",						name: "Evanescence - Evanescence" }
-		,{ id: "03-bridge-over-troubled-water-elvis-presley_202408",		name: "Elvis Presley - Greatest Hits" }		 
 		,{ id: "fiesta-mixes",							name: "Fiestas Mixes" }
 		,{ id: "varios-interpretes-fieston-tropical-1997",			name: "Fiesta Tropical" }						
 		,{ id: "these-days",							name: "Foo Fighters - Wasting Light" }
@@ -148,9 +158,13 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "20-god-gave-rock-n-roll-to-you_202307",				name: "Kiss - Greatest Kiss" }
 		,{ id: "karicia-20-grandes-exitos-2007-222",				name: "Karicia - 20 Grandes Éxitos" }
 		,{ id: "14.-let-love-rule",						name: "Lenny Kravitz - Greatest Hits" }
+		,{ id: "xxxl-2012",							name: "La mejor música para tener sexo" }		
 		,{ id: "la-cultura-de-la-basura-version-chilena",			name: "Los Prisioneros - La Cultura De La Basura (Versión chilena)" }
 		,{ id: "los-mox",							name: "Los Mox - Todos los Discos" }			
 		,{ id: "0155_led_zeppelin_led_zeppelin_1969__mlib",			name: "Led Zeppelin - Led Zeppelin" }
+		,{ id: "masters-of-hardcore-full-collection-of-series",			name: "Masters Of Hardcore - Full Collection Of Series" }
+		,{ id: "megaherz-discography",						name: "Megaherz - Discography" }
+		,{ id: "megapuesta-de-chile-pal-mundo-2016-486",			name: "Megapuesta - De Chile Pal' Mundo" }/*no subido*/
 		,{ id: "playlisthifi", 							name: "Metal PlayList CD1" } 
 		,{ id: "hificollectionp2",						name: "Metal PlayList CD2" }				
 		,{ id: "fixxxer_202105",						name: "Metallica - Reload" }
@@ -160,6 +174,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "02-the-four-horsemen-metallica-1983",				name: "Metallica - Kill 'Em All [FLAC]" }
 		,{ id: "metallica_...-and-justice-for-all",				name: "Metallica - ...And Justice For All [FLAC]"}
 		,{ id: "modern-talking-brother-louie-special-long-version",		name: "Modern Talking - Brother Louie ( Special Long Version)" }
+		,{ id: "oceanica-2021",							name: "Musica Ambiental - Grupo Oceanica" }
+		,{ id: "spa-massage-2019",						name: "Musica para Masajes & SPA" }
 		,{ id: "nirvana_bootlegs_202004",					name: "Nirvana - Bootlegs" }		 
 		,{ id: "downer_202105", 						name: "Nirvana - Bleach" }
 		,{ id: "Nirvana2002CD", 						name: "Nirvana - Black" }
@@ -196,19 +212,20 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "RammsteinUntitled",						name: "Rammstein - Untitled" }
 		,{ id: "rammsteinxxiklavier",						name: "Rammstein - XXI - Klavier" }
 		,{ id: "RammsteinZeit2022",						name: "Rammstein - Zeit" }
+		,{ id: "sebastian-megamix-24-super-hits-2010-907",			name: "Sebastián - Megamix" }		
 		,{ id: "07-troy",							name: "Sinead O' Connor - So Far...The Best Of" }
-		,{ id: "06-walking-on-the-moon-the-police",				name: "Sting & The Police - The Very Best" }
-		,{ id: "sebastian-megamix-24-super-hits-2010-907",			name: "Sebastián - Megamix" }
 		,{ id: "simpy_red-picture_book-vinyl-1985",				name: "Simply Red - Picture Book" }
 		,{ id: "gemini_202105",							name: "Slayer - Undisputed Attitude" }				 		 
 		,{ id: "10-seasons-in-the-abyss",					name: "Slayer Seasons In The Abyss" }
-		,{ id: "SystemOfaDownCollection",					name: "System Of a Down (Full Discography Collection 1998 - 2005)" }
 		,{ id: "slipknot_1999",							name: "Slipknot - Slipknot" }
 		,{ id: "adderall-instrumental",						name: "Slipknot - Adderall" }
 		,{ id: "iowa_album",							name: "Slipknot - Iowa" }
 		,{ id: "loyw_fanmade",							name: "Slipknot - Look Outside Your Window" }
 		,{ id: "the-end-so-far_202209",						name: "Slipknot - The End, So Far" }
 		,{ id: "thegraychapter",						name: "Slipknot - The Gray Chapter" }
+		,{ id: "06-walking-on-the-moon-the-police",				name: "Sting & The Police - The Very Best" }		
+		,{ id: "super-techno-discothek-vol.1-25-1995",				name: "Super Techno Discothek Vol.1-25 (1995)" }		
+		,{ id: "SystemOfaDownCollection",					name: "System Of a Down (Full Discography Collection 1998 - 2005)" }		
 		,{ id: "let-it-happen", 						name: "Tame Impala - Currents" }
 		,{ id: "04.-shout",							name: "Tears For Fears - Greatest Hits" }
 		,{ id: "21-hey-jude_202404",						name: "The Beatles - Beatles 1" }
@@ -218,18 +235,6 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "the-offspring-let-the-bad-times-roll-2021",			name: "The Offspring - Let The Bad Times Roll" }		 
 		,{ id: "yazoo-situation-1990",						name: "Yazoo - Situation" }
 		,{ id: "yerba-brava-20-grandes-exitos-2007-39",				name: "Yerba Brava - 20 Grandes Éxitos" }
-		,{ id: "",                                                              name: "" }
-		,{ id: "90s-eurodance-part-ii-compiled-by-electro75-2018",		name: "90's Eurodance Part II" }
-		,{ id: "xxxl-2012",							name: "Лучшая музыка для секса" }
-		,{ id: "super-techno-discothek-vol.1-25-1995",				name: "Super Techno Discothek Vol.1-25 (1995)" }
-		,{ id: "masters-of-hardcore-full-collection-of-series",			name: "Masters Of Hardcore - Full Collection Of Series" }
-		,{ id: "megaherz-discography",						name: "Megaherz - Discography" }
-		,{ id: "oceanica-2021",							name: "Oceanica - Musica Ambiental" }
-		,{ id: "spa-massage-2019",						name: "Spa Massage" }
-		,{ id: "11-noch-zu-retten",						name: "Eisbrecher - Schock 2015" }
-		,{ id: "04-in-einem-boot",						name: "Eisbrecher - Sturmfahrt 2017" }
-		,{ id: "12-menschenfresser",						name: "Eisbrecher - Schicksalsmelodien 2020" }		
-		,{ id: "04-im-guten-im-bosen",						name: "Eisbrecher - Liebe Macht Monster 2021" }		
 		];	
 
   const menu = document.getElementById("menu");
