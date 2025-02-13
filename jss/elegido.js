@@ -27,8 +27,10 @@ async function fetchThumbnails(collectionId) {
 		
 		collections = [
 		 { id: "14-unknown-artist-track-14",					name: "10 Años De Exitos Con Radio Corazón" }
+		,{ id: "04-pass-the-40",						name: "2 Pac - Evolution The Definitive Collection" }			
 		,{ id: "300-christmas-songs_202305",					name: "300 Christmas Songs" }
 		,{ id: "03-whats-up_202307",					    	name: "4 Non Blondes - Bigger, Better, Faster, More!" }
+		,{ id: "50-cent_202110",						name: "50 Cent" }
 		,{ id: "Get-Rich-or-Die-Tryin-42069",					name: "50 Cent - Get Rich or Die Tryin'" } 
 		,{ id: "08-all-you-zombies-album-version",				name: "80s Rock - The Essential" }
 		,{ id: "euro-dance",							name: "90's EuroDance Parte I" }
@@ -42,6 +44,12 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "albertocortezargentina",					name: "Alberto Cortez - Argentina" }
 		,{ id: "03.-rooster_202307",						name: "Alice In Chains - Greatest Hits" }
 		,{ id: "11-frogs_20210521",						name: "Alice.In Chains - MTV Unplugged" }
+		,{ id: "adrian-y-los-dados-negros-grandes-exitos-2011-461",		name: "Adrián y los Dados Negros - Grandes Éxitos (2011) [WAVE]" }	
+		,{ id: "americo-a-morir-2008-512",					name: "Américo - A morir (2008) [WAVE]" }		
+		,{ id: "amar-azul-amar-azul-1992-507",					name: "Amar Azul - Amar Azul (1992) [WAVE]" }		
+		,{ id: "armando-hernandez-la-mujer-de-mi-vida-2015-540",		name: "Armando Hernández - La Mujer de Mi Vida (2015) [Flac]" }
+		,{ id: "armando-hernandez-historia-musical-de...-cd-1-2003-325",	name: "Armando Hernández - Historia Musical de... [CD 1] (2003) [WAVE]" }
+		,{ id: "armando-hernandez-historia-musical-de...-cd-2-2003-801",	name: "Armando Hernández - Historia Musical de... [CD 2] (2003) [WAVE]" }
 		,{ id: "armando-hernandez-si-vas-para-chile-1996-35",			name: "Armando Hernández - Si Vas Para Chile" }		
 		,{ id: "02-you-know-im-no-good",					name: "Amy Winehouse - Back to Black" }
 		,{ id: "11-amy-amy-amy-outro",						name: "Amy Winehouse - Frank" }
@@ -62,6 +70,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "ShrekMusicfromtheOriginalMotionPicture", 			name: "Banda Sonora - Shrek" } 
 		,{ id: "sonic-mana-original-soundtrack",				name: "Banda Sonora - Sonic Mania Original (FLAC)" }
 		,{ id: "the-fast-and-the-furious-collection",				name: "Banda Sonora - Rapidos y Furiosos" }			
+		,{ id: "dg-138-775-beethoven-o-concertos-pour-piano-n-2-et-n-4-wilhelm-kempff-ferdinand-leitner",name: "Beethoven • Concertos pour piano n° 2 et n° 4" }			
 		,{ id: "rock_around_the_clock-vinyl",					name: "Bill Haley & The Comets - Rock Around The Clock" }
 		,{ id: "06.-mony-mony",							name: "Billy Idol - Idol Songs, 11 Of The Best" }
 		,{ id: "billboard-80s",							name: "Billboard 80s" }		 			
@@ -74,10 +83,16 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "10.-these-days",						name: "Bon Jovi - The Ultimate Collection Vol.02" }
 		,{ id: "boney_m-nightflight_to_venus-vinyl-1978",			name: "Boney M - Nightflight To Venus" }
 		,{ id: "17-daddy-cool-remix-2001",					name: "Boney M - Greatest Hits" }		 
+		,{ id: "BossaNovaStones",						name: "Bossa Nova - The Rolling Stones" }
+		,{ id: "BossaNovaRoses",						name: "Bossa Nova - Guns and Roses" }
+		,{ id: "BossaNovaMarley",						name: "Bossa Nova - Bob Marley" }
+		,{ id: "bronco-pura-sangre-1993-503",					name: "Bronco - Pura Sangre (1993) [WAVE]" }				
 		,{ id: "03.-darlington-county",						name: "Bruce Springsteen - Born In The U.S.A" }
 		,{ id: "12.-human-touch",						name: "Bruce Springsteen - Greatest Hits" }
 		,{ id: "14-everything-i-do-i-do-it-for-you",				name: "Bryan Adams - Anthology Vol.01" }
 		,{ id: "06-lets-make-a-night-to-remember",				name: "Bryan Adams - Anthology Vol.02" }
+		,{ id: "02.-circus-pleasures-of-a-lifetime",				name: "Circus - circus 1969 UK" }		
+		,{ id: "climax-vol.-iii-1991-539",					name: "Climax - Vol. III (1991) [WAVE]" }					
 		,{ id: "20.-talk",							name: "Coldplay - Essentials" }
 		,{ id: "djdaga-megamix-chep",						name: "Chancho en Piedra - Megamix" }		 			
 		,{ id: "chep-1995-peor-es-mascar-lauchas",				name: "Chancho en Piedra - Peor es Mascar Lauchas" }
@@ -98,6 +113,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "compilado-musica-anos-80-90-00-cd-02",				name: "Compilado Musica Años 80-90-00 cd02" }
 		,{ id: "compilado-musica-anos-80-90-00-cd-03",				name: "Compilado Musica Años 80-90-00 cd03" }		 
 		,{ id: "mix-cumbias",							name: "Cumbias Mix" }
+		,{ id: "daddy-yankee_202110",						name: "Daddy Yankee Discography" }		
+		,{ id: "front_20210629",						name: "Daft Punk - Daft Club (Remix Album 2003)" }			
 		,{ id: "daft-punk-homework",						name: "Daft Punk - Homework 1997" } 
 		,{ id: "12.-diamond-dogs",						name: "David Bowie - The Platinum Collection Vol.01" }
 		,{ id: "05.-john-im-only-dancing-again",				name: "David Bowie - The Platinum Collection Vol.02" }
@@ -107,6 +124,12 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "07-deep-purple-child-in-time",					name: "Deep Purple - Essential [FLAC]" }
 		,{ id: "deeppurplemachineheadoriginalrecordrip",			name: "Deep Purple - Machine Head" }
 		,{ id: "beauty-school",							name: "Deftones - Diamond Eyes" }
+		,{ id: "disney-records-the-legacy-collection",				name: "Disney Records The Legacy Collection" }		
+		,{ id: "djs-en-accion-chile-vol.1-1999_202112",				name: "Dj's En Acción - Chile Vol.1 (1999) [WAVE]" }
+		,{ id: "djs-en-accion-2-chile-sin-fronteras-2000-371",			name: "Dj's En Acción - Chile Vol.2 Sin Fronteras (2000) [WAVE]" }
+		,{ id: "dj-pinky-reventon-mix-vol.-1-2006-995",				name: "DJ Pinky - Reventon Mix Vol. 1 (2006) [Flac]" }
+		,{ id: "dj-pinky-reventon-mix-vol.-2-2007-458",				name: "DJ Pinky - Reventon Mix Vol. 2 (2007) [WAVE]" }		
+		,{ id: "don-omar",							name: "Don Omar Discography" }			
 		,{ id: "donna_summer-the_wanderer-vinyl_single-1980",			name: "Donna Summer - The Wanderer" }
 		,{ id: "edith_piaf-edith_piaf-vinyl-1972",				name: "Edith Piaf - Edith Piaf" }		
 		,{ id: "16-fanatica-club-mix",						name: "Eisbrecher - Eisbrecher 2004" }		
@@ -130,6 +153,9 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "varios-interpretes-fieston-tropical-1997",			name: "Fiesta Tropical" }						
 		,{ id: "these-days",							name: "Foo Fighters - Wasting Light" }
 		,{ id: "06-living-on-my-own-roger-s-mix",				name: "Freddie Mercury - Remixes" }
+		,{ id: "gilda-el-mito-2000-436",					name: "Gilda - El Mito (2000) [Flac]" }
+		,{ id: "gilda-las-alas-del-alma-1999-680",				name: "Gilda - Las alas del alma (1999) [WAVE]" }
+		,{ id: "giolito-y-su-combo-lo-mejor-2001-597",				name: "Giolito y Su Combo - Lo Mejor (2001) [Flac]" }			
 		,{ id: "09.-clint-eastwood",						name: "Gorillaz - Greatest Songs" }
 		,{ id: "07.-clint-eastwood",						name: "Gorillaz - Essentials" }
 		,{ id: "grupo-green-megamix-2008-557",					name: "Grupo Green - Megamix (24 Super Hits)" }
@@ -157,6 +183,25 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "jimi_hendrix-in_the_beginning-vinyl-1973",			name: "Jimi Hendrix - In the Beginning" }
 		,{ id: "20-god-gave-rock-n-roll-to-you_202307",				name: "Kiss - Greatest Kiss" }
 		,{ id: "karicia-20-grandes-exitos-2007-222",				name: "Karicia - 20 Grandes Éxitos" }
+		,{ id: "karicia-el-poder-del-ritmo-1993-963",				name: "Karicia - El Poder Del Ritmo (1993) [WAVE]" }
+		,{ id: "karicia-serie-super-tropi-1998-588",				name: "Karicia - Serie Super Tropi (1998) [WAVE]" }
+		,{ id: "karicia-megamix-24-super-hits-2008-741",			name: "Karicia - Megamix (24 Super Hits) (2008) [WAVE]" }			
+		,{ id: "la-sonora-malecon-grandes-exitos-2013-790",			name: "La Sonora Malecón - Grandes Exitos (2013) [WAVE]" }		
+		,{ id: "n1fearedwolfxrmf_20211121_2052",				name: "Lady Gaga Discography" }		
+		,{ id: "grupo-green-grupo-red-blue-contagio-la-guerra-de-los-colores-ii-1999-290",name: "La Guerra De Los Colores - Grupo Green, Grupo Red, Blue, Contagio (1999)" }
+		,{ id: "la-sonora-de-tommy-rey-amor-en-llamas-1996-513",		name: "La Sonora de Tommy Rey - Amor en Llamas (1996) [Flac]" }			
+		,{ id: "la-cumbia-sa-za...sabor-1998_202104",				name: "La Cumbia - Sa, Za...Sabor! (1998) [WAVE]" }		
+		,{ id: "la-cumbia-re-chapita-1999-228",					name: "La Cumbia - Re-Chapita (1999) [WAVE]" }
+		,{ id: "la-cumbia-sabor-cumbia-y-nada-mas-2000_202104",			name: "La Cumbia - Sabor, Cumbia y Nada más (2000) [WAVE]" }
+		,{ id: "la-cumbia-querias-cumbia-toma-2006-830",			name: "La Cumbia - ¿Querías Cumbia? Toma!!!! (2006) [WAVE]" }
+		,{ id: "la-cumbia-no-es-lo-mismo-ni-es-igual-es-la-cumbia-2009",	name: "La Cumbia - No es lo mismo, ni es igual, es La Cumbia (2009) [WAVE]" }		
+		,{ id: "la-rosa-perfume-de-cumbia-1999-284", 				name: "La Rosa - Perfume de Cumbia (1999) [WAVE]" }		
+		,{ id: "la-sonora-dinamita-la-movida-de-la-cumbia-1998-flac",		name: "La Sonora Dinamita - La Movida de la Cumbia" }
+		,{ id: "la-sonora-malecon-20-grandes-exitos-2000-312",			name: "La Sonora Malecón - 20 Grandes Exitos (2000) [WAVE]" }		
+		,{ id: "los-charros-de-la-comuna-de-lumaco-bailemos-con-los-charros-2007-556",name: "Los Charros de la Comuna de Lumaco - Bailemos con los Charros (2007) [WAVE]" }
+		,{ id: "los-fantasmas-del-caribe-caramelo-1993-447",			name: "Los Fantasmas Del Caribe - Caramelo (1993) [WAVE]" }		
+		,{ id: "los-kuatreros-del-sur-el-baile-del-gusano-2009-530",		name: "Los Kuatreros del Sur - El Baile del Gusano (2009) [WAVE]" }
+		,{ id: "los-kuatreros-del-sur-10-anos-de-trayectoria-2016",		name: "Los Kuatreros Del Sur - 10 Años De Trayectoria (2016) [Flac]" }			
 		,{ id: "14.-let-love-rule",						name: "Lenny Kravitz - Greatest Hits" }
 		,{ id: "xxxl-2012",							name: "La mejor música para tener sexo" }		
 		,{ id: "la-cultura-de-la-basura-version-chilena",			name: "Los Prisioneros - La Cultura De La Basura (Versión chilena)" }
@@ -176,12 +221,17 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "modern-talking-brother-louie-special-long-version",		name: "Modern Talking - Brother Louie ( Special Long Version)" }
 		,{ id: "oceanica-2021",							name: "Musica Ambiental - Grupo Oceanica" }
 		,{ id: "spa-massage-2019",						name: "Musica para Masajes & SPA" }
+		,{ id: "n1fearedwolfxrmf_20211121_1921",				name: "Miley Cyrus Discography" }		
+		,{ id: "mission-impossible_202111",					name: "Mission Impossible" }		
+		,{ id: "mister-gato-los-senores-de-la-cumbia-1999",			name: "Mister Gato – Los Señores De La Cumbia (1999)" }					
 		,{ id: "nirvana_bootlegs_202004",					name: "Nirvana - Bootlegs" }		 
 		,{ id: "downer_202105", 						name: "Nirvana - Bleach" }
 		,{ id: "Nirvana2002CD", 						name: "Nirvana - Black" }
 		,{ id: "a-lo-cubano-album",						name: "Orishas - A lo cubano" }		 
 		,{ id: "cosita-buena-album",						name: "Orishas - Cosita Buena" }
 		,{ id: "BlizzardOfOzz",							name: "Ozzy Osbourne - Blizzard of Ozz" }
+		,{ id: "London_Philharmonic_Orchestra-cinema_broadway_gold",		name: "Orchestra Philharmonic by London - Cinema & Broadway Gold" }
+		,{ id: "orquesta-huambaly-20-grandes-exitos-1995-677",			name: "Orquesta Huambaly - 20 Grandes Éxitos (1995) [Flac]" }						
 		,{ id: "07-silly-love-songs",						name: "Paul McCartney - All The Best" }
 		,{ id: "07.-us-and-them_202311",					name: "Pink Floyd - The Dark Side Of The Moon" }
 		,{ id: "06.-mother",							name: "Pink Floyd - The Wall Vol.01" }
@@ -190,9 +240,15 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "PinkFloyd03FatOldSun",						name: "Pink Floyd - Labyrinths" }
 		,{ id: "06-prince-purple-rain",						name: "Prince - The Very Best" }
 		,{ id: "ahora_si_ke_si",						name: "Palmas arriba - Ahora si que sí" }
+		,{ id: "pastor-lopez-16-exitos-vol.-2-1996-625",			name: "Pastor Lopez - 16 Exitos Vol. 2 (1996) [Flac]" }		
+		,{ id: "pitbull-discography",						name: "Pitbull Discography" }
+		,{ id: "proyecto-power-cumbia-power-2015-396",				name: "Proyecto Power - Cumbia Power (2015) [Flac]" }			
 		,{ id: "01-bohemian-rhapsody_202404",					name: "Queen - Greatest Hits I" }
 		,{ id: "06-innuendo",							name: "Queen - Greatest Hits II" }
 		,{ id: "06-you-dont-fool-me",						name: "Queen - Greatest Hits III" }
+		,{ id: "rafaga-vuela-2004-456",						name: "Ráfaga - Vuela (2004) [WAVE]" }
+		,{ id: "rafaga-una-cerveza-2016-965",					name: "Ráfaga - Una Cerveza (2016) [WAVE]" }		
+		,{ id: "11-rbd-salvame", 						name: "Rebelde RBD (2004)" }			
 		,{ id: "06.-dont-go-back-to-rockville",					name: "R.E.M - The Best Of" }
 		,{ id: "15-dani-california-jerry-comann-remix",				name: "Red Hot Chili Peppers - Extended & Remixes Vol.01" }
 		,{ id: "26-if-you-have-to-ask-the-disco-krisco-mix",			name: "Red Hot Chili Peppers - Extended & Remixes Vol.02" }
@@ -212,6 +268,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "RammsteinUntitled",						name: "Rammstein - Untitled" }
 		,{ id: "rammsteinxxiklavier",						name: "Rammstein - XXI - Klavier" }
 		,{ id: "RammsteinZeit2022",						name: "Rammstein - Zeit" }
+		,{ id: "santaferia-y-otros-artistas-coleccion-la-gran-cumbia-2010",	name: "Santaferia - Colección La Gran Cumbia (2010) [WAVE]" }		
+		,{ id: "sebastian-un-grande-1990-300",					name: "Sebastián - Un grande (1990) [WAVE]" }							
 		,{ id: "sebastian-megamix-24-super-hits-2010-907",			name: "Sebastián - Megamix" }		
 		,{ id: "07-troy",							name: "Sinead O' Connor - So Far...The Best Of" }
 		,{ id: "simpy_red-picture_book-vinyl-1985",				name: "Simply Red - Picture Book" }
@@ -226,6 +284,11 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "06-walking-on-the-moon-the-police",				name: "Sting & The Police - The Very Best" }		
 		,{ id: "super-techno-discothek-vol.1-25-1995",				name: "Super Techno Discothek Vol.1-25 (1995)" }		
 		,{ id: "SystemOfaDownCollection",					name: "System Of a Down (Full Discography Collection 1998 - 2005)" }		
+		,{ id: "system_of_a_down_1998",						name: "System Of A Down - 1998 - System Of A Down" }
+		,{ id: "toxicity_202301",						name: "System Of A Down - 2001 - Toxicity" }
+		,{ id: "16-streamline",							name: "System of a Down - 2002 - Steal this album" }
+		,{ id: "02-byob",							name: "System of a Down - 2005 - Mezmerize" }
+		,{ id: "08.-holy-mountains",						name: "System of a Down - 2005 - Hypnotize" }			
 		,{ id: "let-it-happen", 						name: "Tame Impala - Currents" }
 		,{ id: "04.-shout",							name: "Tears For Fears - Greatest Hits" }
 		,{ id: "21-hey-jude_202404",						name: "The Beatles - Beatles 1" }
@@ -233,6 +296,13 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "15-the-police-wrapped-around-your-finger",			name: "The Police - Greatest Hits" }
 		,{ id: "the-cure-greatest-hits-cdrip-bubanee",				name: "The Cure - Greatest Hits" }
 		,{ id: "the-offspring-let-the-bad-times-roll-2021",			name: "The Offspring - Let The Bad Times Roll" }		 
+		,{ id: "02-declaracion-de-principios",					name: "Tiro de Gracia - 2003 - Patron del Vicio" }
+		,{ id: "03-suen-os",							name: "Tiro de Gracia - 2001 - Retorno de misericordia" }
+		,{ id: "10-vagabundo",							name: "Tiro de Gracia - 1999 - Decision" }
+		,{ id: "20-leyenda-negra",						name: "Tiro de Gracia - 1997 - Ser Humano !!" }
+		,{ id: "vikings-5-iconos-kitsch-2006-777",				name: "Vikings 5 - Iconos Kitsch (2006) [Flac]" }		
+		,{ id: "vikings-5-35-anos-de-exitos-2005-573",				name: "Vikings 5 - 35 Años De Éxitos (2005) [WAVE]" }
+		,{ id: "vikings-5-coleccion-platino-2013-537",				name: "Vikings 5 - Colección Platino (2013) [Flac]" }			
 		,{ id: "VengaBoys-ThePartyAlbum",					name: "VengaBoys - The Party Album 1998" }		
 		,{ id: "VengaBoys-ThePlatinumAlbum",					name: "VengaBoys - The Platinum Album 2001" }			
 		,{ id: "yazoo-situation-1990",						name: "Yazoo - Situation" }
