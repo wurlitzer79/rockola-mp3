@@ -118,15 +118,6 @@
 		songList.innerHTML = "<li>Error al cargar las canciones.</li>";
 	  });
 	  
-	// Desactiva todos los botones
-	function desactivabtns(){
-		// Crear un array con los índices del 0 al 21
-		const indices = document.getElementById("totalsong").value;
-		for (let i = 0; i <= indices - 1; i++) {
-		  document.getElementById("btn_" + i).classList.remove("active");
-		}
-	}
-	
     // Reproducir canción por índice
     function playSong(index) {	  
       currentIndex = index;
@@ -137,10 +128,9 @@
 	  //desactivabtns();	
 	  const indices = document.getElementById("totalsong").value;
 	  for (let i = 0; i <= indices - 1; i++) {
-	    document.getElementById("btn_" + i).classList.remove("active");
+	    document.getElementById("btn_" + i).classList.remove("sonando");
 	  }	  
-	  //alert(indices);
-	  document.getElementById("btn_" + index).classList.add("active");
+	  document.getElementById("btn_" + index).classList.add("sonando");
     }
 
     // Reproducir siguiente canción al finalizar
