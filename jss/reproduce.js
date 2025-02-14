@@ -13,7 +13,7 @@
     // Mostrar el valor en el título
 	const huno = document.getElementById("titulo");
 	if (huno) {
-      huno.textContent = collectionName;
+      	  huno.textContent = collectionName.replace(/<br\s*\/?>/gi, ' '); //Reemplaza '<br>' por espacio de titulo.
 	  huno.style.color = "#FFF";
 	  huno.style.textShadow = "3px 3px 5px #00f"; // Ajusta los valores según el efecto deseado
     }
