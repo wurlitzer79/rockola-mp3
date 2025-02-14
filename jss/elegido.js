@@ -423,25 +423,29 @@ async function fetchThumbnails(collectionId) {
 	const filteredCollections = collections
 	     .filter(item => item.name.startsWith(letra))
 	     .sort((a, b) => a.name.localeCompare(b.name));  
-		
+  
+  let index = 1; // Contador para enumerar los ítems
   for (const collection of filteredCollections) {
 	const thumbnails = await fetchThumbnails(collection.id);
 
+	//Muestra Los diacos enumerados
 	thumbnails.forEach(file => {
 	  const menuItem = document.createElement("div");
 	  menuItem.className = "menu-item";
-	  menuItem.innerHTML = `		
+	  menuItem.innerHTML = `
+		<div class="item-number">${index}</div>
 		<a href="reproduce.html?id=${collection.id}&name=${collection.name}">
-			<img src="https://archive.org/download/${collection.id}/${file.name}" alt="${collection.name}">
+		  <img src="https://archive.org/download/${collection.id}/${file.name}" alt="${collection.name}">
 		</a>
 		${collection.name}
 	  `;
 	  menuItem.onclick = () => {
-		//alert(`Has seleccionado: ${collection.id}`)
-		menuItem.styleName = "menu-item2";
+		menuItem.classList.toggle("menu-item2");
 	  };
 	  menu.appendChild(menuItem);
+	  index++; // Incrementamos el contador
 	});
+
   }
 
   if (menu.innerHTML === "") {
