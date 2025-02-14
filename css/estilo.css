@@ -27,18 +27,18 @@
 	  font-family		: Arial, sans-serif;
 	  text-align		: center;
 	  background-color	: var(--color-fondo);
-	  color			: var(--color-letra);
-	  margin		: 0;
-	  padding		: 0;
-	  min-height		: 85vh;
-	  display		: flex;
+	  color				: var(--color-letra);
+	  margin			: 0;
+	  padding			: 0;
+	  min-height		: 85vh; 
+	  display			: flex;
 	  flex-direction	: column;
 	  justify-content	: center;
 	  align-items		: center;
     } 		
 	main {
-		  flex			: 1; /* Hacer que el contenido principal ocupe el espacio restante */
-		  padding		: 20px;
+		  flex				: 1; /* Hacer que el contenido principal ocupe el espacio restante */
+		  padding			: 20px;
 		  text-align		: center;      
 		}
 	footer {
@@ -147,11 +147,20 @@
 	button:hover {/* ESTILO DE BOTONES DEL LISTADO DE REPRODUCCION */
 		  background-color	: var(--color-fondo-boton-2);
 		  color				: var(--color-letra-boton-2);
-	}	 
+	}
+	.sonando {/* ESTILO DE BOTONES DEL LISTADO DE REPRODUCCION */
+		  background-color	: var(--color-fondo-boton-2);
+          color				: var(--color-letra-boton-2);		
+	}
 	audio {
 		  margin-top		: 20px;
 		  width				: 100%;
 		}
+	audio::-webkit-media-controls-overflow-button {
+		display: none !important;
+		visibility: hidden !important;
+		width: 0px !important;		
+	}	
 	.songName {
 		  font-size			: 18px;
 		  margin-top		: 10px;
@@ -266,87 +275,87 @@
 
 /*ini carrusel indice 3*/
     .swiper {
-      width	: 90%;
+      width		: 90%;
       height	: 550px;
       position	: relative;
       z-index	: 1; /* Asegura que el carrusel tenga prioridad */
     }
     .swiper-slide {
-      display		: flex;
+      display			: flex;
       justify-content	: center;
-      align-items	: center;
-      font-size		: 2rem;
-      font-weight	: bold;
+      align-items		: center;
+      font-size			: 2rem;
+      font-weight		: bold;
       background-color	: var(--color-fondo-boton-1);
-      color		: var(--color-letra-boton-1);	  
-      border-radius	: 10px;
-      cursor		: pointer;
-      user-select	: none;
+      color				: var(--color-letra-boton-1);	  
+      border-radius		: 10px;
+      cursor			: pointer;
+      user-select		: none;
       text-transform	: uppercase;
     }
     .swiper-slide:hover {
-      display		: flex;
+      display			: flex;
       justify-content	: center;
-      align-items	: center;
-      font-size		: 2rem;
-      font-weight	: bold;
+      align-items		: center;
+      font-size			: 2rem;
+      font-weight		: bold;
       background-color	: var(--color-fondo-boton-2);
-      color		: var(--color-letra-boton-2);	  
-      border-radius	: 10px;
-      cursor		: pointer;
-      user-select	: none;
+      color				: var(--color-letra-boton-2);	  
+      border-radius		: 10px;
+      cursor			: pointer;
+      user-select		: none;
       text-transform	: uppercase;
     }	
     .swiper-button-next,
     .swiper-button-prev {
-      color		: var(--color-fondo-boton-2); /* Color de las flechas */
-      font-size		: 1.5rem;
-      width		: 50px;
-      height		: 50px;
-      border-radius	: 50%;
+      color				: var(--color-fondo-boton-2); /* Color de las flechas */
+      font-size			: 1.5rem;
+      width				: 50px;
+      height			: 50px;
+      border-radius		: 50%;
       background-color	: var(--color-fondo-semitransparente); /* Fondo semitransparente */
-      display		: none; /*para ver las flechas que mueve el menú, agregar :flex*/
+      display			: none; /*para ver las flechas que mueve el menú, agregar :flex*/
       justify-content	: center;
-      align-items	: center;
-      box-shadow	: 0 4px 6px rgba(0, 0, 0, 0.2);
-      z-index		: 10; /* Asegura que las flechas estén por encima */
-      position		: absolute;
-      top		: 50%; /* Centra las flechas verticalmente */
-      transform		: translateY(-50%);
+      align-items		: center;
+      box-shadow		: 0 4px 6px rgba(0, 0, 0, 0.2);
+      z-index			: 10; /* Asegura que las flechas estén por encima */
+      position			: absolute;
+      top				: 50%; /* Centra las flechas verticalmente */
+      transform			: translateY(-50%);
     }
     .swiper-button-next {
-      right		: 0px; /* Mover hacia afuera del carrusel */
+      right				: 0px; /* Mover hacia afuera del carrusel */
     }
     .swiper-button-prev {
-      left		: 0px; /* Mover hacia afuera del carrusel */
+      left				: 0px; /* Mover hacia afuera del carrusel */
     }
     .swiper-button-next::after,
     .swiper-button-prev::after {
-      font-size		: 1.8rem; /* Tamaño de las flechas */
+      font-size			: 1.8rem; /* Tamaño de las flechas */
     }
 /*fin carrusel indice 3*/
 
 /*ini reproduce 3*/
-	.rockola_header {
-		width		: 98%;
-		heigth		: 250px;
-		margin		: 10px auto;
-		border		: 0px solid #222;
-		border-radius	: 10px;
-		display		: flex-wrap;
-	}
+		.rockola_header {
+			width			: 98%;
+			heigth			: 250px;
+			margin			: 10px auto;
+			border			: 0px solid #222;
+			border-radius	: 10px;
+			display			: flex-wrap;
+		}
 
         .main_rep3 {
             margin-top		: 220px; 	/* Deja espacio para el header */ 
             margin-bottom	:  40px; 	/* Deja espacio para el footer */
             overflow-y		: auto; 	/* Habilita el scroll solo en el main */ 
-            flex		: 1; 		/* El main ocupa el espacio restante */ 
+            flex			: 1; 		/* El main ocupa el espacio restante */ 
             background		: #222; 	/* Fondo main */
-	    width		: 100%;
+			width			: 100%;
         }
 
         .content {
-            /* height		: 2000px; */	/* Contenido largo para probar el scroll */
+            /* height		    : 2000px; */	/* Contenido largo para probar el scroll */
             background		: linear-gradient(to bottom, #222, #222);	/* Fondo listado reproduce */			
         }
 /*fin reproduce 3*/
