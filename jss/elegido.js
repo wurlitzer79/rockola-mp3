@@ -314,7 +314,12 @@ async function fetchThumbnails(collectionId) {
   menu.innerHTML = ""; // Limpiar menú
 
   //Filtra colección con solo los que comiencen con la letra elejida
-  const filteredCollections = collections.filter(item => item.name.startsWith(letra));
+  //const filteredCollections = collections.filter(item => item.name.startsWith(letra));
+  
+  //Aparte de Filtrar con letra, los ordena alfabeticamente
+	const filteredCollections = collections
+	     .filter(item => item.name.startsWith(letra))
+	     .sort((a, b) => a.name.localeCompare(b.name));  
 		
   for (const collection of filteredCollections) {
 	const thumbnails = await fetchThumbnails(collection.id);
