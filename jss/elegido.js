@@ -308,6 +308,109 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "yazoo-situation-1990",						name: "Yazoo - Situation" }
 		,{ id: "Yazoo-TheBestOfYazoo",						name: "Yazoo - The Best Of Yazoo" }
 		,{ id: "yerba-brava-20-grandes-exitos-2007-39",				name: "Yerba Brava - 20 Grandes Éxitos" }
+		,{ id: "", name: "" }
+		,{ id: "100-disco-va-2001-wav",						name: "100% Musica Disco<br>VA 2001" }
+		,{ id: "02-elvis-crespo-victor-manuelle-el-cuerpo-me-pide",		name: "Victor Manuelle<br>30 Años 30 Exitos" }
+		,{ id: "80s-love-2014-flac",						name: "80's Love<br>2014" }
+		,{ id: "6-rosas-rojas",							name: "Alejandra Guzmán<br>12 Grandes Exitos" }
+		,{ id: "amar-azul-con-amor-1993_202308",				name: "Amar Azul<br>Con Amor"}
+		,{ id: "amar-azul-dime-tu-1996_202308",					name: "Amar Azul<br>Dime Tú" }
+		,{ id: "amar-azul-cumbia-nena-1998-flac",				name: "Amar Azul<br>Cumbia Nena" }
+		,{ id: "10.-le-falta-luz",						name: "Amar Azul<br>Inmenso" }
+		,{ id: "10.-no-te-olvides-de-mi_202302",				name: "Amar Azul<br>Lo Mejor de lo Mejor" }
+		,{ id: "amanda-miguel-16-kilates-musicales",				name: "Amanda Miguel<br>16 Kilates Musicales" }
+		,{ id: "09.-matame",							name: "Ana Bárbara<br>Te Atraparé... Bandido" }
+		,{ id: "06-ana-barbara-ya-me-encontraste_202301",			name: "Ana Bárbara<br>Los Besos No Se Dan En La Camisa" }
+		,{ id: "08-me-voy-a-emborrachar",					name: "Antonio Ríos<br>El Maestro" }
+		,{ id: "absolute-rock-ballads-classics-2001-flac",			name: "Absolute Rock Ballads Classics<br>1CD" }
+		,{ id: "absolute-rock-ballads-classics-2cds-2001",			name: "Absolute Rock Ballads Classics<br>2CD" }		
+		,{ id: "08-esa-chica-es-para-mi-can-a-brava_20230128",			name: "Caña Brava<br>En su mejor momento" }
+		,{ id: "al-bano-romina-power-grandes-exitos",				name: "Al Bano & Romina Power<br>Grandes Exitos" }
+		,{ id: "08-alex-ubago-despertar",					name: "Alex Ubago<br>Fantasia o Realidad" }
+		,{ id: "belinda-2004-wav",						name: "Belinda<br>2004" }
+		,{ id: "12.-que-paso",							name: "Bersuit Vergarabat<br>Libertinaje" }
+		,{ id: "bersuit-vergarabat-de-la-cabeza-con-bersuit-vergarabat-9",	name: "Bersuit Vergarabat<br>De La Cabeza" }
+		,{ id: "vilma-palma-e-vampiros-grandes-exitos-wav",			name: "Vilma Palma E Vampiros<br>Grandes Exitos" }
+		,{ id: "06-britney-spears-from-the-bottom-of-my-broken-heart",		name: "Britney Spears<br>Baby One More Time" }
+		,{ id: "03.-show-me-the-meaning-of-being-lonely",			name: "Backstreet Boys<br>Millennium" }
+		,{ id: "backstreet-boys_202302",				 	name: "Backstreet Boys<br>Backstreets Back" }
+		,{ id: "backstreet-boys_20220325_1132", 		 		name: "Backstreet Boys<br>Never Gone" }
+		,{ id: "backstreet-boys_20220325_1138", 		 		name: "Backstreet Boys<br>Unbreakable" }
+		,{ id: "05-luis-miguel-te-extrano",					name: "Luis Miguel<br>Romance" }
+		,{ id: "luis-miguel-romances-cd", 					name: "Luis Miguel<br>Romances" }
+		,{ id: "08-bravo-amor-bravo_202403", 					name: "Luis Miguel<br>Cómplices" }				
+		,{ id: "08-el-dia-que-me-quieras", 					name: "Luis Miguel<br>Mis Boleros Favoritos" }
+		,{ id: "09-romances-medley-live_20240319", 				name: "Luis Miguel<br>Vivo" }
+		,{ id: "02-te-desea-muy-felices-fiestas", 				name: "Luis Miguel<br>Navidades" }
+		,{ id: "15-mi-ciudad", 							name: "Luis Miguel<br>México en la Piel" }
+		,{ id: "08-bravo-amor-bravo", 						name: "Luis Miguel<br>Busca una Mujer" }
+		,{ id: "01-cafe-tacuba-noche-oscura", 					name: "Cafe Tacvba<br>Cafe Tacvba" }
+		,{ id: "15-callados-con-angela-carrasco", 				name: "Camilo Sesto<br>20 Súper Éxitos" }
+		,{ id: "02.-quimeras-2", 						name: "Charlie Zaa<br>Sentimientos" }
+		,{ id: "04-atado-a-tu-amor", 						name: "Chayanne<br>Atado a tu Amor" }
+		,{ id: "chayanne-volver-a-nacer-1996", 					name: "Chayanne<br>Volver A Nacer" }
+		,{ id: "02.-creedence-clearwater-revival-i-put-a-spell-on-you",		name: "Creedence Clearwater<br>Revival" }
+		,{ id: "02-mi-eterno-amor-secreto_202307", 				name: "Olga Tañón<br>Como olvidar... Lo mejor de" }
+		,{ id: "01-mayonesa_202305", 						name: "Chocolate 2000<br>Grandes Exitos" }
+		,{ id: "chicago-exitos", 						name: "Chicago<br>Exitos" }
+		,{ id: "deep-purple-2cds-infinite-the-gold-edition-2017",		name: "Deep Purple<br>Infinite The Gold Edition" }
+		,{ id: "07-it-s-no-good", 						name: "Depeche Mode<br>The best of" }
+		,{ id: "david-guetta-apl.-de-ap-will.i.am-on-the-dancefloor", 		name: "David Guetta" }
+		,{ id: "debbie-gibson-32.-we-could-be-together-live-mix_202305", 	name: "Debbie Gibson ⭐<br>Electric Youth" }
+		,{ id: "14-mourir-aupr-de-mon-amour", 					name: "Demis Roussos<br>Greatest Hits" }
+		,{ id: "shakira-donde-estan-los-ladrones", 				name: "Shakira<br>Dónde Están Los Ladrones" }
+		,{ id: "05.-amada-amante", 						name: "Eddie Santiago<br>Cada vez Otra vez" }
+		,{ id: "eddie-santiago-...sigo-atrevido-1988", 				name: "Eddie Santiago<br>...Sigo Atrevido!" }
+		,{ id: "05-elvis-crespo-princesita", 					name: "Elvis Crespo<br>Suavemente" }
+		,{ id: "antologia-2000-flac", 						name: "Enanitos Verdes<br>Antología" }
+		,{ id: "erasure-pop-the-first-20-hits", 				name: "Erasure<br>Pop! The First 20 Hits" }
+		,{ id: "eros-ramazzotti-todo-historias-1993-flac", 			name: "Eros Ramazzotti<br>Todo Historias" }
+		,{ id: "11.-whisper", 							name: "Evanescence<br>Fallen" }
+		,{ id: "03-foreigner-with-heaven-on-our-side", 				name: "Foreigner<br>The Very Best... And Beyond" }
+		,{ id: "fey-20-exitos-originales-2005", 				name: "Fey<br>20 Exitos Originales" }
+		,{ id: "01-git-es-por-amor", 						name: "Git<br>El Álbum" }
+		,{ id: "gloria-estefan-mi-tierra-1993-wav",	 			name: "Gloria Estefan<br>Mi Tierra" }
+		,{ id: "gondwana-sentimiento-original-extended-version", 		name: "Gondwanna<br>Éxitos" }
+		,{ id: "06.-gondwana-jah-children", 					name: "Gondwanna<br>Ras Portraits" }
+		,{ id: "gondawana-second-coming",   					name: "Gondwanna<br>Second Coming" }		
+		,{ id: "05.-primer-tren-a-marte-gianluca-grignani",	 		name: "Gianluca Grignani<br>Destino Paraíso" }
+		,{ id: "05-ven-chiquilla", 						name: "Grupo Alegria<br>Bribabai" }
+		,{ id: "17.-green-day-21-guns-usre-10900679_20240324", 			name: "Green Day<br>Greatest Hits" }
+		,{ id: "haddaway-1993-wav", 						name: "Haddaway<br>Haddaway" }
+		,{ id: "01-jose-luis-perales-y-te-vas", 				name: "José Luis Perales<br>Mis Mejores 17 Canciones" }
+		,{ id: "02-juanes-es-por-ti", 						name: "Juanes<br>Un día Normal" }
+		,{ id: "02.-para-ser-eterno", 						name: "Juanes<br>Fijate Bien" }
+		,{ id: "10-ultima-vez", 						name: "Julieta Venegas<br>Limón y Sal" }
+		,{ id: "jon-secada-solo-lo-mejor-20-exitos-2002-flac", 			name: "Jon Secada<br>Solo Lo Mejor 20 Exitos" }
+		,{ id: "kaoma-worldbeat-wav", 						name: "Kaoma<br>Worldbeat" }
+		,{ id: "07.-simplemente-amigos", 					name: "Karla<br>Colección De Oro" }
+		,{ id: "karla-la-rompecorazones-1996-flac", 				name: "Karla<br>La Rompecorazones" }
+		,{ id: "01-con-tu-amor", 						name: "Karla<br>Grandes Éxitos" }
+		,{ id: "02-lagrimas-por-lagrimas", 					name: "Karla<br>Lágrimas por Lágrimas" }
+		,{ id: "01-escapar", 							name: "Kudai<br>Grandes Éxitos" }
+		,{ id: "13.-a-veces_202304", 						name: "La Ley<br>Prisioneros de la Piel" }
+		,{ id: "01.-animal", 							name: "La Ley<br>Invisible" }
+		,{ id: "la-ley-unplugged-2001_202312", 					name: "La Ley<br>Unplugged" }
+		,{ id: "10-al-final", 							name: "La Ley<br>Uno" }
+		,{ id: "la-noche-amor-entre-sabanas-2006-flac", 			name: "La Noche<br>Amor Entre Sabanas" }
+		,{ id: "la-noche-en-tu-cuarto-2008_202309", 				name: "La Noche<br>En tu Cuarto" }
+		,{ id: "lenny-kravitz-you-were-in-my-heart", 				name: "Lenny Kravitz<br>Lenny" }
+		,{ id: "los-autenticos-decadentes-sigue-tu-camino", 			name: "Los Auténticos Decadentes<br>Sigue tu camino" }
+		,{ id: "04-el-pajaro-vio-el-cielo-y-se-volo",	 			name: "Los Auténticos Decadentes<br>Mi vida loca" }
+		,{ id: "hoobastank-96", 						name: "Hoobastank<br>Hoobastank" }
+		,{ id: "12-la-bouche-fallin-in-love-spike-mix", 			name: "La Bouche<br>Sweet Dreams" }
+		,{ id: "01-la-quinta-estacion-algo-mas", 				name: "La Quinta Estación<br>Personalidad" }
+		,{ id: "la-quinta-estacion-el-mundo-se-equivoca", 			name: "La Quinta Estación<br>El mundo se equivoca" }
+		,{ id: "la-mosca-tse-tse-visperas-de-carnaval-1999", 			name: "La Mosca Tse Tse<br>Vísperas de carnaval" }
+		,{ id: "12.-emergencia-de-amor", 					name: "Laura Pausini<br>Volveré junto a ti" }
+		,{ id: "cumbia-los-angeles-azules-inolvidables-2000", 			name: "Los Angeles Azules<br>Inolvidables" }
+		,{ id: "07-la-mujer-de-los-dos", 					name: "Los Temerarios<br>Sueño De Amor" }
+		,{ id: "08.-mi-secreto_202303", 					name: "Los Temerarios<br>Tu Última Canción" }
+		,{ id: "11-lou-bega-the-trumpet-part-ii", 				name: "Lou Bega<br>A little bit of mambo" }
+		,{ id: "09-marco-antonio-solis-si-no-te-hubieras-ido", 			name: "Marco Antonio Solís<br>La Historia Continúa..." }
+		,{ id: "12-marco-antonio-solis-sera-mejor-que-te-vayas",		name: "Marco Antonio Solís<br>La Historia Continúa 2." }
+		,{ id: "11-melendi-de-repente-desperte", 				name: "Melendi<br>Lagrimas Desordenadas" }
+		,{ id: "04-melendi-saraluna_20230412", 					name: "Melendi<br>Un alumno más" }
 		];	
 
   const menu = document.getElementById("menu");
