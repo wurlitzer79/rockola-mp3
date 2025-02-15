@@ -349,14 +349,13 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "02.-quimeras-2", 						name: "Charlie Zaa<br>Sentimientos" }
 		,{ id: "04-atado-a-tu-amor", 						name: "Chayanne<br>Atado a tu Amor" }
 		,{ id: "chayanne-volver-a-nacer-1996", 					name: "Chayanne<br>Volver A Nacer" }
-		,{ id: "02.-creedence-clearwater-revival-i-put-a-spell-on-you",		name: "Creedence Clearwater<br>Revival" }
 		,{ id: "02-mi-eterno-amor-secreto_202307", 				name: "Olga Tañón<br>Como olvidar... Lo mejor de" }
 		,{ id: "01-mayonesa_202305", 						name: "Chocolate 2000<br>Grandes Exitos" }
 		,{ id: "chicago-exitos", 						name: "Chicago<br>Exitos" }
 		,{ id: "deep-purple-2cds-infinite-the-gold-edition-2017",		name: "Deep Purple<br>Infinite The Gold Edition" }
 		,{ id: "07-it-s-no-good", 						name: "Depeche Mode<br>The best of" }
 		,{ id: "david-guetta-apl.-de-ap-will.i.am-on-the-dancefloor", 		name: "David Guetta" }
-		,{ id: "debbie-gibson-32.-we-could-be-together-live-mix_202305", 	name: "Debbie Gibson ⭐<br>Electric Youth" }
+		,{ id: "debbie-gibson-32.-we-could-be-together-live-mix_202305", 	name: "Debbie Gibson<br>⭐Electric Youth" }
 		,{ id: "14-mourir-aupr-de-mon-amour", 					name: "Demis Roussos<br>Greatest Hits" }
 		,{ id: "shakira-donde-estan-los-ladrones", 				name: "Shakira<br>Dónde Están Los Ladrones" }
 		,{ id: "05.-amada-amante", 						name: "Eddie Santiago<br>Cada vez Otra vez" }
