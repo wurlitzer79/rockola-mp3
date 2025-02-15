@@ -43,7 +43,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "02-i-dont-want-to-miss-a-thing-pop-mix",			name: "Aerosmith<br>I Don't Want To Miss a Thing" }
 		,{ id: "albertocortezargentina",					name: "Alberto Cortez<br>Argentina" }
 		,{ id: "03.-rooster_202307",						name: "Alice In Chains<br>Greatest Hits" }
-		,{ id: "11-frogs_20210521",						name: "Alice.In Chains<br>MTV Unplugged" }
+		,{ id: "11-frogs_20210521",						name: "Alice.In Chains<br>🎸Mtv Unplugged" }
 		,{ id: "adrian-y-los-dados-negros-grandes-exitos-2011-461",		name: "Adrián y los Dados Negros<br>Grandes Éxitos" }
 		,{ id: "americo-a-morir-2008-512",					name: "Américo<br>A morir" }
 		,{ id: "amar-azul-amar-azul-1992-507",					name: "Amar Azul<br>Amar Azul" }
@@ -389,7 +389,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "01-escapar", 							name: "Kudai<br>Grandes Éxitos" }
 		,{ id: "13.-a-veces_202304", 						name: "La Ley<br>Prisioneros de la Piel" }
 		,{ id: "01.-animal", 							name: "La Ley<br>Invisible" }
-		,{ id: "la-ley-unplugged-2001_202312", 					name: "La Ley<br>Unplugged" }
+		,{ id: "la-ley-unplugged-2001_202312", 					name: "La Ley<br>🎸Mtv Unplugged" }
 		,{ id: "10-al-final", 							name: "La Ley<br>Uno" }
 		,{ id: "la-noche-amor-entre-sabanas-2006-flac", 			name: "La Noche<br>Amor Entre Sabanas" }
 		,{ id: "la-noche-en-tu-cuarto-2008_202309", 				name: "La Noche<br>En tu Cuarto" }
@@ -411,7 +411,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "11-melendi-de-repente-desperte", 				name: "Melendi<br>Lagrimas Desordenadas" }
 		,{ id: "04-melendi-saraluna_20230412", 					name: "Melendi<br>Un alumno más" }
 		,{ id: "mana-amar-es-combatir",  					name: "Maná<br>Amar es combatir" }
-		,{ id: "02.-mana-en-el-muelle-de-san-blas-mtv-unplugged",		name: "Maná<br>MTV Unplugged" }  
+		,{ id: "02.-mana-en-el-muelle-de-san-blas-mtv-unplugged",		name: "Maná<br>🎸Mtv Unplugged" }  
 		,{ id: "mana-donde-jugaran-los-ninos",					name: "Maná<br>Donde jugaran los niños" }  
 		,{ id: "mana-falta-amor1990",						name: "Maná<br>Falta amor" }  
 		,{ id: "mana-cuando-los-angeles-lloran-cd",				name: "Maná<br>Cuando los ángeles lloran" }  
@@ -441,6 +441,12 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "rock-ballads-va-2-cds-2004", 					name: "Rock Ballads<br>V.A. 2cd" }
 		,{ id: "radiohead-the-best-of-limited-edition",				name: "Radiohead<br>The best of" }
 		,{ id: "radiohead-ok-computer-oknotok-1997-2017-remastered",		name: "Radiohead<br>Ok computer OKNOTOK" }
+		,{ id: "deftones-1997-around-the-fur",					name: "Deftones<br>Around the fur" }
+		,{ id: "deftones-white-pony-2000", 					name: "Deftones<br>White pony" }
+		,{ id: "megadeth-rust-in-peace", 					name: "Megadeth - Rust In Peace" }
+		,{ id: "new-kids-on-the-block", 					name: "New Kids on The Block<br>Discography" }
+		,{ id: "philcollinsserioushitslive", 					name: "Phil Collins<br>Serious Hits... Live!" }
+		,{ id: "08.-ricardo-arjona-olvidarte_202301", 				name: "Ricardo Arjona<br>Solo" }
 		];	
 
   const menu = document.getElementById("menu");
