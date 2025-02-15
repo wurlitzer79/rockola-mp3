@@ -417,6 +417,30 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "mana-cuando-los-angeles-lloran-cd",				name: "Maná<br>Cuando los ángeles lloran" }  
 		,{ id: "suenos-liquidos_202408",					name: "Maná<br>Sueños líquidos" }  
 		,{ id: "revolucion-de-amor-2020-remasterizado",				name: "Maná<br>Revolución de amor" }
+		,{ id: "10-dueno-de-mi-cuerpo",						name: "Maria Conchita Alonso<br>Grandes éxitos" }
+		,{ id: "17-cha-cha",							name: "Marisela<br>Serie platino 20 éxitos" }
+		,{ id: "13-masterboy-masterboy-theme",					name: "Masterboy<br>The best of masterboy" }
+		,{ id: "07.-enamorados",						name: "Mayonesa<br>Bate que bate" }
+		,{ id: "12-melendi-los-premios-pinocho",				name: "Melendi<br>Curiosa la cara de tu padre" }
+		,{ id: "15-michel-telo-vida-bela-vida",					name: "Michel Telo<br>Na balada" }
+		,{ id: "04-solos-en-america",						name: "Miguel Mateos<br>Solos en america" }
+		,{ id: "mis-favoritas-2010",						name: "Juan Gabriel<br>Mis favoritas" }
+		,{ id: "18-modern-talking-no.-1-hit-medley",				name: "Modern Talking<br>Back for good" }
+		,{ id: "myriam-hernandez-flac",						name: "Myriam Hernández<br>Myriam Hernández" }
+		,{ id: "huelllas-myriamhernandez-320kbps",				name: "Myriam Hernández<br>Huellas" }
+		,{ id: "04-myriam-hernandez-la-fuerza-del-amor",			name: "Myriam Hernández<br>Todo el amor" }
+		,{ id: "02.-ay-amor",							name: "Myriam Hernández<br>17 super éxitos" }
+		,{ id: "noelia-1999-flac-.", 						name: "Noelia<br>Tú" }
+		,{ id: "nirvana-mtv-unplugged-in-new-york_202211",			name: "Nirvana<br>🎸Mtv Unplugged" }
+		,{ id: "no-doubt-the-singles-1992-2003", 				name: "No Doubt<br>The singles 1992-2003" }
+		,{ id: "07-no-doubt-the-climb", 					name: "No Doubt<br>Tragic kingdom" }
+		,{ id: "07-breath-pear", 						name: "Pearl Jam<br>The complete B-Sides & 🎸Mtv Unplugged" }
+		,{ id: "09-plan-b-feat.-clandestino-yailemm-donde-los-consigo", 	name: "Plan B<br>Love & Sex" }
+		,{ id: "reggae-es-mucho-mas-va", 					name: "Reggae<br>Reggae es mucho mas" }
+		,{ id: "rock-ballads-va-2004", 						name: "Rock Ballads<br>V.A. 1cd" }
+		,{ id: "rock-ballads-va-2-cds-2004", 					name: "Rock Ballads<br>V.A. 2cd" }
+		,{ id: "radiohead-the-best-of-limited-edition",				name: "Radiohead<br>The best of" }
+		,{ id: "radiohead-ok-computer-oknotok-1997-2017-remastered",		name: "Radiohead<br>Ok computer OKNOTOK" }
 		];	
 
   const menu = document.getElementById("menu");
