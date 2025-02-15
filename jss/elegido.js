@@ -406,8 +406,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "07-la-mujer-de-los-dos", 					name: "Los Temerarios<br>Sueño De Amor" }
 		,{ id: "08.-mi-secreto_202303", 					name: "Los Temerarios<br>Tu Última Canción" }
 		,{ id: "11-lou-bega-the-trumpet-part-ii", 				name: "Lou Bega<br>A little bit of mambo" }
-		,{ id: "09-marco-antonio-solis-si-no-te-hubieras-ido", 			name: "Marco Antonio Solís<br>La Historia Continúa..." }
-		,{ id: "12-marco-antonio-solis-sera-mejor-que-te-vayas",		name: "Marco Antonio Solís<br>La Historia Continúa 2." }
+		,{ id: "09-marco-antonio-solis-si-no-te-hubieras-ido", 	 		name: "Ma.Antonio Solís<br>La Historia Continúa 1" }
+		,{ id: "12-marco-antonio-solis-sera-mejor-que-te-vayas", 		name: "Ma.Antonio Solís<br>La Historia Continúa 2" }
 		,{ id: "11-melendi-de-repente-desperte", 				name: "Melendi<br>Lagrimas Desordenadas" }
 		,{ id: "04-melendi-saraluna_20230412", 					name: "Melendi<br>Un alumno más" }
 		,{ id: "mana-amar-es-combatir",  					name: "Maná<br>Amar es combatir" }
