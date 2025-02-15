@@ -410,6 +410,13 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "12-marco-antonio-solis-sera-mejor-que-te-vayas",		name: "Marco Antonio Solís<br>La Historia Continúa 2." }
 		,{ id: "11-melendi-de-repente-desperte", 				name: "Melendi<br>Lagrimas Desordenadas" }
 		,{ id: "04-melendi-saraluna_20230412", 					name: "Melendi<br>Un alumno más" }
+		,{ id: "mana-amar-es-combatir",  					name: "Maná<br>Amar es combatir" }
+		,{ id: "02.-mana-en-el-muelle-de-san-blas-mtv-unplugged",		name: "Maná<br>MTV Unplugged" }  
+		,{ id: "mana-donde-jugaran-los-ninos",					name: "Maná<br>Donde jugaran los niños" }  
+		,{ id: "mana-falta-amor1990",						name: "Maná<br>Falta amor" }  
+		,{ id: "mana-cuando-los-angeles-lloran-cd",				name: "Maná<br>Cuando los ángeles lloran" }  
+		,{ id: "suenos-liquidos_202408",					name: "Maná<br>Sueños líquidos" }  
+		,{ id: "revolucion-de-amor-2020-remasterizado",				name: "Maná<br>Revolución de amor" }
 		];	
 
   const menu = document.getElementById("menu");
