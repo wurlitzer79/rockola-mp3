@@ -60,7 +60,8 @@
 		  position			: fixed;
 		  top				: 0;
 		  width				: 100%;  
-		  display			: flex;		
+		  display			: flex;
+		  z-index			: 1;
 	}
 /*fin web*/
 
