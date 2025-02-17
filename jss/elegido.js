@@ -447,6 +447,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "new-kids-on-the-block", 					name: "New Kids on The Block<br>Discography" }
 		,{ id: "philcollinsserioushitslive", 					name: "Phil Collins<br>Serious Hits... Live!" }
 		,{ id: "08.-ricardo-arjona-olvidarte_202301", 				name: "Ricardo Arjona<br>Solo" }
+		,{ id: "02.-still-loving-you-scorpions", 				name: "Scorpions<br>The Millennium Collection" }
 		];	
 
   const menu = document.getElementById("menu");
