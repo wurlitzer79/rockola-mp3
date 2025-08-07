@@ -11,6 +11,7 @@
 
 	//Mostrar el valor del indice seleccionado
 	const hind = document.getElementById("vuelveHome");
+	alert('volve= ' + volve);
 	if (hind) {
 		if (volve==1){
 			hind.href = 'index.html';
@@ -22,6 +23,7 @@
 			hind.href = 'index3.html';
 		}
 	}
+	alert('hind= ' + hind.href);
 
 // Función para cargar metadatos de una colección
 async function fetchThumbnails(collectionId) {
@@ -507,5 +509,6 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
