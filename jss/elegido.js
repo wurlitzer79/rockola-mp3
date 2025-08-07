@@ -1,12 +1,27 @@
 // Obtener parámetros de la URL
     const params = new URLSearchParams(window.location.search);
+	let volver = params.get("ind");	 // Obtenet el parametro 'ind'
 	let letra = params.get("valor"); // Obtener el parámetro 'valor'
 
-    // Mostrar el valor en el título
+    // Mostrar el valor de la letra seleccionada en el título
 	const huno = document.getElementById("letraElegida");
 	if (huno) {
       huno.textContent = letra;
     }
+
+	//Mostrar el valor del indice seleccionado
+	const hind = document.getElementById("vuelveHome");
+	if (hind) {
+		if (hind==1){
+			hind.href = "index.html";
+		}
+		if (hind==2){
+			hind.href = "index2.html";
+		}
+		if (hind==3){
+			hind.href = "index3.html";
+		}
+	}
 
 // Función para cargar metadatos de una colección
 async function fetchThumbnails(collectionId) {
@@ -492,3 +507,4 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
