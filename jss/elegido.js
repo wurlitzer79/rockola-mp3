@@ -95,7 +95,9 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "absolute-rock-ballads-classics-2001-flac",													name: "Absolute Rock Ballads Classics<br>1CD" }
 		,{ id: "absolute-rock-ballads-classics-2cds-2001",													name: "Absolute Rock Ballads Classics<br>2CD" }	
 		,{ id: "al-bano-romina-power-grandes-exitos",														name: "Al Bano & Romina Power<br>Grandes Exitos" }
-		,{ id: "08-alex-ubago-despertar",																	name: "Alex Ubago<br>Fantasia o Realidad" }		
+		,{ id: "08-alex-ubago-despertar",																	name: "Alex Ubago<br>Fantasia o Realidad" }
+		,{ id: "01-honeymoon-avenue_202505",																name: "Ariana Grande<br>Yours Truly (2013)" }
+		,{ id: "08-break-your-heart-right-back_20250510",													name: "Ariana Grande<br>My Everything (2014)" }
 		,{ id: "", name: "" }
 		,{ id: "bad-religion-into-the-unknown",																name: "Bad Religion<br>Into The Unknown" }
 		,{ id: "Bad_Bunny-UnVeranoSinTi",																	name: "Bad Bunny<br>Un Verano Sin Tí" }
@@ -269,7 +271,10 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "isabel-pantoja-grandes-exitos",																name: "Isabel Pantoja<br>Grandes Exitos" }
 		,{ id: "", name: "" }		
 		,{ id: "jimi_hendrix-in_the_beginning-vinyl-1973",													name: "Jimi Hendrix<br>In the Beginning" }
-		,{ id: "03-te-contaran",																			name: "Juan Luis Guerra 4.40<br>La Llave De Mi Corazón" }
+		,{ id: "05-el-niagara-en-bicicleta",																name: "Juan Luis Guerra 4.40<br>Ni Es Lo Mismo Ni Es Igual (1998)" }
+		,{ id: "04-gloria",																					name: "Juan Luis Guerra 4.40<br>Para Ti (2004)" }
+		,{ id: "03-te-contaran",																			name: "Juan Luis Guerra 4.40<br>La Llave De Mi Corazón (2007)" }
+		,{ id: "01-kitipun_202504",																			name: "Juan Luis Guerra 4.40<br>Literal (2019)" }
 		,{ id: "01-jose-luis-perales-y-te-vas", 															name: "José Luis Perales<br>Mis Mejores 17 Canciones" }
 		,{ id: "02-juanes-es-por-ti", 																		name: "Juanes<br>Un día Normal" }
 		,{ id: "02.-para-ser-eterno", 																		name: "Juanes<br>Fijate Bien" }
@@ -445,6 +450,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "RammsteinUntitled",																			name: "Rammstein<br>Untitled" }
 		,{ id: "rammsteinxxiklavier",																		name: "Rammstein<br>XXI Klavier" }
 		,{ id: "RammsteinZeit2022",																			name: "Rammstein<br>Zeit" }
+		,{ id: "07.-t.-a.-t.u.-limp-bizkit-ya-soshla-bonus-track", 											name: "Rammstein ft. t.A.T.u.<br>Pruzhinki" }		
 		,{ id: "", name: "" }		
 		,{ id: "shakira-donde-estan-los-ladrones", 															name: "Shakira<br>Dónde Están Los Ladrones" }
 		,{ id: "02.-still-loving-you-scorpions", 															name: "Scorpions<br>The Millennium Collection" }		
@@ -482,6 +488,9 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "03-suen-os",																				name: "Tiro de Gracia<br>Retorno de misericordia" }
 		,{ id: "10-vagabundo",																				name: "Tiro de Gracia<br>Decision" }
 		,{ id: "20-leyenda-negra",																			name: "Tiro de Gracia<br>Ser Humano !!" }
+		,{ id: "t.a.t.u.-dangerous-and-moving-cd-rip-1411-wav", 											name: "t.A.T.u.<br>Dangerous and Moving" }
+		,{ id: "t.a.t.u.-200-kmh-in-the-wrong-lane-cd-rip-1411-wav", 										name: "t.A.T.u.<br>200 km/h in the Wrong Lane" }
+		,{ id: "t.a.t.u.-no.-1-cd-rip-flac", 																name: "t.A.T.u.<br>Поднебесная No. 1" }
 		,{ id: "", name: "" }											
 		,{ id: "vilma-palma-e-vampiros-grandes-exitos-wav",													name: "Vilma Palma E Vampiros<br>Grandes Exitos" }		
 		,{ id: "02-elvis-crespo-victor-manuelle-el-cuerpo-me-pide",											name: "Victor Manuelle<br>30 Años 30 Exitos" }			
@@ -538,6 +547,7 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
 
