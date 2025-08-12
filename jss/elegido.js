@@ -109,45 +109,47 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "14-everything-i-do-i-do-it-for-you",				name: "Bryan Adams<br>Anthology Vol.01" }
 		,{ id: "06-lets-make-a-night-to-remember",				name: "Bryan Adams<br>Anthology Vol.02" }
 		,{ id: "02.-circus-pleasures-of-a-lifetime",				name: "Circus<br>Circus 1969 UK" }
-		,{ id: "climax-vol.-iii-1991-539",					name: "Climax<br>Vol. III" }
-		,{ id: "20.-talk",							name: "Coldplay<br>Essentials" }
-		,{ id: "djdaga-megamix-chep",						name: "Chancho en Piedra<br>Megamix" }		 			
-		,{ id: "chep-1995-peor-es-mascar-lauchas",				name: "Chancho en Piedra<br>Peor es Mascar Lauchas" }
-		,{ id: "chep-1997-la-dieta-del-lagarto",				name: "Chancho en Piedra<br>La Dieta del Lagarto" }
-		,{ id: "chep-1998-rindanse-terricolas",					name: "Chancho en Piedra<br>Rindanse Terricolas" }
-		,{ id: "chep-2000-marca-chancho",					name: "Chancho en Piedra<br>Marca Chancho" }
-		,{ id: "chep-2002-el-tinto-elemento",					name: "Chancho en Piedra<br>El Tinto Elemento" }
-		,{ id: "chep-2004-chancho-6",						name: "Chancho en Piedra<br>Chancho 6" }
-		,{ id: "chep-2005-desde-el-batiscafo",					name: "Chancho en Piedra<br>Desde el Batiscafo" }
+		,{ id: "climax-vol.-iii-1991-539",							name: "Climax<br>Vol. III" }
+		,{ id: "20.-talk",											name: "Coldplay<br>Essentials" }
+		,{ id: "djdaga-megamix-chep",								name: "Chancho en Piedra<br>Megamix" }		 			
+		,{ id: "chep-1995-peor-es-mascar-lauchas",					name: "Chancho en Piedra<br>Peor es Mascar Lauchas" }
+		,{ id: "chep-1997-la-dieta-del-lagarto",					name: "Chancho en Piedra<br>La Dieta del Lagarto" }
+		,{ id: "chep-1998-rindanse-terricolas",						name: "Chancho en Piedra<br>Rindanse Terricolas" }
+		,{ id: "chep-2000-marca-chancho",							name: "Chancho en Piedra<br>Marca Chancho" }
+		,{ id: "chep-2002-el-tinto-elemento",						name: "Chancho en Piedra<br>El Tinto Elemento" }
+		,{ id: "chep-2004-chancho-6",								name: "Chancho en Piedra<br>Chancho 6" }
+		,{ id: "chep-2005-desde-el-batiscafo",						name: "Chancho en Piedra<br>Desde el Batiscafo" }
 		,{ id: "chep-2007-grandes-exitos-de-ayer-y-oink",			name: "Chancho en Piedra<br>Grandes Exitos de Ayer y Oink" }   			
+		,{ id: "mlmklvcharlygarciadiscografia",						name: "Charly Garcia<br>Discografia Completa"}
 		,{ id: "circus-of-rock-come-one-come-all-2021",				name: "Circus of Rock<br>Come One, Come All" }
-		,{ id: "2-15.-desnudate",						name: "Christina Aguilera<br>The Collection" }
+		,{ id: "2-15.-desnudate",									name: "Christina Aguilera<br>The Collection" }
 		,{ id: "07-peter-frampton-breaking-all-the-rules",			name: "Classic Metal<br>One" }
 		,{ id: "09-faith-no-more-falling-to-pieces",				name: "Classic Metal<br>Two" }
-		,{ id: "the-classic-project",						name: "Classic Project<br>Todos" }
-		,{ id: "01.-suzy-q_202311",						name: "Creedence Clearwater Revival<br>Chronicle" }
+		,{ id: "the-classic-project",								name: "Classic Project<br>Todos" }
+		,{ id: "01.-suzy-q_202311",									name: "Creedence Clearwater Revival<br>Chronicle" }
 		,{ id: "compilado-musica-anos-80-90-00-cd01",				name: "Compilado Musica<br>Años 80-90-00 cd01" }
 		,{ id: "compilado-musica-anos-80-90-00-cd-02",				name: "Compilado Musica<br>Años 80-90-00 cd02" }
 		,{ id: "compilado-musica-anos-80-90-00-cd-03",				name: "Compilado Musica<br>Años 80-90-00 cd03" }		 
-		,{ id: "mix-cumbias",							name: "Cumbias<br>Mix" }
-		,{ id: "daddy-yankee_202110",						name: "Daddy Yankee<br>Discography" }		
-		,{ id: "front_20210629",						name: "Daft Punk<br>Daft Club" }
-		,{ id: "daft-punk-homework",						name: "Daft Punk<br>Homework" }
-		,{ id: "12.-diamond-dogs",						name: "David Bowie<br>The Platinum Collection Vol.01" }
-		,{ id: "05.-john-im-only-dancing-again",				name: "David Bowie<br>The Platinum Collection Vol.02" }
-		,{ id: "13.-loving-the-alien",						name: "David Bowie<br>The Platinum Collection Vol.03" }
-		,{ id: "07-b-3-river-deep-mountain-high",				name: "Deep Purple<br>The Book of the taliesyn" }
+		,{ id: "mix-cumbias",										name: "Cumbias<br>Mix" }
+		,{ id: "daddy-yankee_202110",								name: "Daddy Yankee<br>Discography" }		
+		,{ id: "front_20210629",									name: "Daft Punk<br>Daft Club" }
+		,{ id: "daft-punk-homework",								name: "Daft Punk<br>Homework" }
+		,{ id: "12.-diamond-dogs",									name: "David Bowie<br>The Platinum Collection Vol.01" }
+		,{ id: "05.-john-im-only-dancing-again",					name: "David Bowie<br>The Platinum Collection Vol.02" }
+		,{ id: "13.-loving-the-alien",								name: "David Bowie<br>The Platinum Collection Vol.03" }
+		,{ id: "07-b-3-river-deep-mountain-high",					name: "Deep Purple<br>The Book of the taliesyn" }
 		,{ id: "deep_purple_-_deep_purple_vinyl_rip",				name: "Deep Purple<br>Deep Purple" }
-		,{ id: "07-deep-purple-child-in-time",					name: "Deep Purple<br>Essential" }
+		,{ id: "07-deep-purple-child-in-time",						name: "Deep Purple<br>Essential" }
 		,{ id: "deeppurplemachineheadoriginalrecordrip",			name: "Deep Purple<br>Machine Head" }
-		,{ id: "beauty-school",							name: "Deftones<br>Diamond Eyes" }
+		,{ id: "beauty-school",										name: "Deftones<br>Diamond Eyes" }
 		,{ id: "disney-records-the-legacy-collection",				name: "Disney Records<br>The Legacy Collection" }
 		,{ id: "djs-en-accion-chile-vol.1-1999_202112",				name: "Dj's En Acción<br>Chile Vol.1" }
-		,{ id: "djs-en-accion-2-chile-sin-fronteras-2000-371",			name: "Dj's En Acción<br>Chile Vol.2" }
+		,{ id: "djs-en-accion-2-chile-sin-fronteras-2000-371",		name: "Dj's En Acción<br>Chile Vol.2" }
 		,{ id: "dj-pinky-reventon-mix-vol.-1-2006-995",				name: "DJ Pinky<br>Reventon Mix Vol. 1" }
 		,{ id: "dj-pinky-reventon-mix-vol.-2-2007-458",				name: "DJ Pinky<br>Reventon Mix Vol. 2" }
-		,{ id: "don-omar",							name: "Don Omar<br>Discography" }
-		,{ id: "donna_summer-the_wanderer-vinyl_single-1980",			name: "Donna Summer<br>The Wanderer" }
+		,{ id: "don-omar",											name: "Don Omar<br>Discography" }
+		,{ id: "donna_summer-the_wanderer-vinyl_single-1980",		name: "Donna Summer<br>The Wanderer" }
+		,{ id: "mlmklvdorsodiscografia", 							name: "Dorso<br>Discofrafia Completa" }
 		,{ id: "edith_piaf-edith_piaf-vinyl-1972",				name: "Edith Piaf<br>Edith Piaf" }		
 		,{ id: "16-fanatica-club-mix",						name: "Eisbrecher<br>Eisbrecher" }
 		,{ id: "08-kein-mitleid",						name: "Eisbrecher<br>Antikörper" }
@@ -168,6 +170,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "never-going-back",						name: "Evanescence<br>Evanescence" }
 		,{ id: "fiesta-mixes",							name: "Fiestas<br>Mixes" }
 		,{ id: "varios-interpretes-fieston-tropical-1997",			name: "Fiesta<br>Tropical" }
+		,{ id: "mlmklvfiskalesadhokdiscografia", 		name: "Fiskales Ad-Hok<br>Discografía Completa" }
 		,{ id: "these-days",							name: "Foo Fighters<br>Wasting Light" }
 		,{ id: "06-living-on-my-own-roger-s-mix",				name: "Freddie Mercury<br>Remixes" }
 		,{ id: "gilda-el-mito-2000-436",					name: "Gilda<br>El mito" }
@@ -222,26 +225,27 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "los-kuatreros-del-sur-el-baile-del-gusano-2009-530",		name: "Los Kuatreros del Sur<br>El Baile del Gusano" }
 		,{ id: "los-kuatreros-del-sur-10-anos-de-trayectoria-2016",		name: "Los Kuatreros Del Sur<br>10 Años De Trayectoria" }
 		,{ id: "14.-let-love-rule",						name: "Lenny Kravitz<br>Greatest Hits" }
-		,{ id: "xxxl-2012",							name: "Música<br>para tener sexo" }
 		,{ id: "la-cultura-de-la-basura-version-chilena",			name: "Los Prisioneros<br>La Cultura De La Basura" }
 		,{ id: "los-mox",							name: "Los Mox<br>Todos los Discos" }
 		,{ id: "0155_led_zeppelin_led_zeppelin_1969__mlib",			name: "Led Zeppelin<br>Led Zeppelin" }
-		,{ id: "masters-of-hardcore-full-collection-of-series",			name: "Masters Of Hardcore<br>Full Collection Of Series" }
-		,{ id: "megaherz-discography",						name: "Megaherz<br>Discography" }
+		,{ id: "mlmklvmakizadiscografia",							name: "Makiza<br>Discografia Completa"}
+		,{ id: "masters-of-hardcore-full-collection-of-series",		name: "Masters Of Hardcore<br>Full Collection Of Series" }
+		,{ id: "megaherz-discography",								name: "Megaherz<br>Discography" }
 		,{ id: "megapuesta-de-chile-pal-mundo-2016-486",			name: "Megapuesta<br>De Chile Pal' Mundo" }
-		,{ id: "playlisthifi", 							name: "Metal<br>PlayList CD1" } 
-		,{ id: "hificollectionp2",						name: "Metal<br>PlayList CD2" }				
-		,{ id: "fixxxer_202105",						name: "Metallica<br>Reload" }
-		,{ id: "blackalbum_202304", 						name: "Metallica<br>Black Album" }
-		,{ id: "BeyondMagneticEP",						name: "Metallica<br>Beyond Magnetic" }
-		,{ id: "MetallicaMOP",							name: "Metallica<br>Master Of Puppets" }
+		,{ id: "playlisthifi", 										name: "Metal<br>PlayList CD1" } 
+		,{ id: "hificollectionp2",									name: "Metal<br>PlayList CD2" }				
+		,{ id: "fixxxer_202105",									name: "Metallica<br>Reload" }
+		,{ id: "blackalbum_202304", 								name: "Metallica<br>Black Album" }
+		,{ id: "BeyondMagneticEP",									name: "Metallica<br>Beyond Magnetic" }
+		,{ id: "MetallicaMOP",										name: "Metallica<br>Master Of Puppets" }
 		,{ id: "02-the-four-horsemen-metallica-1983",				name: "Metallica<br>Kill 'Em All" }
-		,{ id: "metallica_...-and-justice-for-all",				name: "Metallica<br>...And Justice For All"}
-		,{ id: "modern-talking-brother-louie-special-long-version",		name: "Modern Talking<br>Brother Louie" }
-		,{ id: "oceanica-2021",							name: "Musica Ambiental<br>Grupo Oceanica" }
-		,{ id: "spa-massage-2019",						name: "Musica<br>Para Masajes & SPA" }
-		,{ id: "n1fearedwolfxrmf_20211121_1921",				name: "Miley Cyrus<br>Discography" }		
-		,{ id: "mission-impossible_202111",					name: "Mission Impossible<br>FMI" }
+		,{ id: "metallica_...-and-justice-for-all",					name: "Metallica<br>...And Justice For All"}
+		,{ id: "modern-talking-brother-louie-special-long-version",	name: "Modern Talking<br>Brother Louie" }
+		,{ id: "oceanica-2021",										name: "Musica Ambiental<br>Grupo Oceanica" }
+		,{ id: "spa-massage-2019",									name: "Musica<br>Para Masajes & SPA" }
+		,{ id: "xxxl-2012",											name: "Música<br>para tener sexo" }			
+		,{ id: "n1fearedwolfxrmf_20211121_1921",					name: "Miley Cyrus<br>Discography" }		
+		,{ id: "mission-impossible_202111",							name: "Mission Impossible<br>FMI" }
 		,{ id: "mister-gato-los-senores-de-la-cumbia-1999",			name: "Mister Gato<br>Los Señores De La Cumbia" }
 		,{ id: "nirvana_bootlegs_202004",					name: "Nirvana<br>Bootlegs" }		 
 		,{ id: "downer_202105", 						name: "Nirvana<br>Bleach" }
@@ -302,6 +306,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "thegraychapter",						name: "Slipknot<br>The Gray Chapter" }
 		,{ id: "06-walking-on-the-moon-the-police",				name: "Sting & The Police<br>The Very Best" }		
 		,{ id: "super-techno-discothek-vol.1-25-1995",				name: "Super Techno<br>Discothek Vol.1-25" }		
+		,{ id: "mlmklvsupernovadiscografia",						name: "Super Nova<br>Discografia Completa" }
 		,{ id: "SystemOfaDownCollection",					name: "System Of a Down<br>Full Discography" }		
 		,{ id: "system_of_a_down_1998",						name: "System Of A Down<br>System Of A Down" }
 		,{ id: "toxicity_202301",						name: "System Of A Down<br>Toxicity" }
@@ -511,6 +516,7 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
 
