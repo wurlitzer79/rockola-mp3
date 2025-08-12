@@ -203,6 +203,7 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "karicia-el-poder-del-ritmo-1993-963",				name: "Karicia<br>El Poder Del Ritmo" }
 		,{ id: "karicia-serie-super-tropi-1998-588",				name: "Karicia<br>Serie Super Tropi" }
 		,{ id: "karicia-megamix-24-super-hits-2008-741",			name: "Karicia<br>Megamix (24 Super Hits)" }
+		,{ id: "grupo-karicia-32-exitos-enganchados-2003",			name: "Karicia<br>32 Exitos Enganchados" }
 		,{ id: "la-sonora-malecon-grandes-exitos-2013-790",			name: "La Sonora Malecón<br>Grandes Exitos" }
 		,{ id: "n1fearedwolfxrmf_20211121_2052",				name: "Lady Gaga<br>Discography" }
 		,{ id: "grupo-green-grupo-red-blue-contagio-la-guerra-de-los-colores-ii-1999-290",name: "La Guerra De Los Colores<br>Grupo Green, Grupo Red, Blue, Contagio" }
@@ -509,6 +510,7 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
 
