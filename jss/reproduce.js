@@ -1,5 +1,6 @@
 // Obtener parámetros de la URL
     const params = new URLSearchParams(window.location.search);
+	  let volve = params.get("ind");	 // Obtenet el parametro 'ind'
 	const collectionId = params.get("id"); // Obtener el parámetro 'id'  
 	const collectionName = params.get("name"); // Obtener el parámetro 'name'   
 	
@@ -152,3 +153,4 @@
 		songName.textContent = `Reproduciendo: ` + playlist[currentIndex].name;
 	  }
 	});	
+
