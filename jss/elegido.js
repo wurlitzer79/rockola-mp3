@@ -495,7 +495,7 @@ async function fetchThumbnails(collectionId) {
 	  menuItem.className = "menu-item";
 	  menuItem.innerHTML = `
 		<div class="item-number">${index}</div>
-		<a href="reproduce.html?id=${collection.id}&name=${collection.name}">
+		<a href="reproduce.html?ind=${volve}&id=${collection.id}&name=${collection.name}">
 		  <img src="https://archive.org/download/${collection.id}/${file.name}" alt="${collection.name}">
 		</a>
 		${collection.name}
@@ -516,6 +516,7 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
 
