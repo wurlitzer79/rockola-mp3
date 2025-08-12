@@ -198,7 +198,8 @@ async function fetchThumbnails(collectionId) {
 		,{ id: "iron-maiden-senjutsu-2021_202109",				name: "Iron Maiden<br>Senjutsu" }
 		,{ id: "isabel-pantoja-grandes-exitos",					name: "Isabel Pantoja<br>Grandes Exitos" }
 		,{ id: "jimi_hendrix-in_the_beginning-vinyl-1973",			name: "Jimi Hendrix<br>In the Beginning" }
-		,{ id: "20-god-gave-rock-n-roll-to-you_202307",				name: "Kiss<br>Greatest Kiss" }
+		,{ id: "kiss-20th-century-masters-the-millennium-collection",	name: "Kiss The Best Of<br>20th Century Masters The Millennium Collection" }
+		,{ id: "01-detroit-rock-city",									name: "Kiss<br>Destroyer (1976)" }
 		,{ id: "karicia-20-grandes-exitos-2007-222",				name: "Karicia<br>20 Grandes Éxitos" }
 		,{ id: "karicia-el-poder-del-ritmo-1993-963",				name: "Karicia<br>El Poder Del Ritmo" }
 		,{ id: "karicia-serie-super-tropi-1998-588",				name: "Karicia<br>Serie Super Tropi" }
@@ -510,6 +511,7 @@ async function fetchThumbnails(collectionId) {
 
 // Llamar a la función para generar el menú
 generateMenu();
+
 
 
 
